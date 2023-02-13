@@ -1,0 +1,1296 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  background: none;
+  font-family: "Comfortaa", cursive;
+  border: none;
+  color: #EAE6E5;
+}
+
+html, body {
+  background: #12130F;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 0.09765625vw;
+}
+
+.container {
+  width: 882rem;
+  margin-left: 70rem;
+  position: relative;
+  z-index: 2;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 94rem;
+}
+
+.logo {
+  height: 36rem;
+  margin-right: 58rem;
+}
+
+.header-list {
+  display: flex;
+  width: 339rem;
+  margin-right: 65rem;
+}
+
+.header-list__item {
+  font-weight: 300;
+  font-size: 12rem;
+  line-height: 90%;
+  text-align: center;
+  color: #EAE6E5;
+  margin-right: 36rem;
+}
+.header-list__item:last-child {
+  margin-right: 0;
+}
+
+.header-contacts {
+  width: 157rem;
+  height: 31rem;
+  margin-right: 21rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header-contacts__phone, .header-contacts__email {
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 123%;
+  letter-spacing: 0.14em;
+  color: #636363;
+}
+
+.header-contacts__phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.header-contacts__phone::after {
+  content: "";
+  display: block;
+  height: 1rem;
+  width: 27rem;
+  background: #919191;
+  margin: 4rem 0;
+}
+
+.header-button {
+  width: 170rem;
+  height: 35rem;
+  position: relative;
+  font-weight: 700;
+  font-size: 14rem;
+  line-height: 149%;
+  color: #EAE6E5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.header-button::before {
+  content: "";
+  display: block;
+  background: #5B9279;
+  height: 18rem;
+  aspect-ratio: 1/1;
+  margin-right: 5rem;
+  border-radius: 50%;
+}
+
+.header-button__bg {
+  width: 170rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main {
+  padding-top: 71rem;
+}
+
+.main__heading {
+  font-weight: 500;
+  font-size: 50rem;
+  line-height: 109.5%;
+  text-transform: uppercase;
+  margin-bottom: 62rem;
+}
+
+.main__list {
+  margin-bottom: 64rem;
+}
+
+.main__list__item {
+  font-weight: 300;
+  font-size: 16rem;
+  line-height: 100.5%;
+  display: flex;
+  align-items: center;
+}
+.main__list__item:first-child {
+  width: 500rem;
+  margin-bottom: 39rem;
+}
+.main__list__item:last-child {
+  width: 401rem;
+  margin-top: 26rem;
+}
+.main__list__item::before {
+  content: "";
+  display: block;
+  margin-right: 12rem;
+  background: #5B9279;
+  border-radius: 50%;
+  height: 14rem;
+  aspect-ratio: 1/1;
+}
+
+.green-text {
+  color: #5B9279;
+}
+
+.pipi-button {
+  width: 447rem;
+  height: 44rem;
+  background: #8FCB9B;
+  border-radius: 33rem;
+  position: relative;
+  font-weight: 700;
+  font-size: 18rem;
+  line-height: 123%;
+  color: #12130F;
+  text-align: start;
+  padding-left: 46rem;
+}
+.pipi-button::after {
+  content: "";
+  display: block;
+  height: 44rem;
+  aspect-ratio: 1/1;
+  position: absolute;
+  right: 0;
+  outline: 3rem solid white;
+  outline-offset: -3rem;
+  border-radius: 50%;
+  top: 0;
+}
+.pipi-button::before {
+  content: "";
+  display: block;
+  height: 14rem;
+  aspect-ratio: 1/1;
+  position: absolute;
+  right: 0;
+  background: #FF964C;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+
+.main__descriprion {
+  font-weight: 700;
+  font-size: 13rem;
+  line-height: 123%;
+  letter-spacing: 0.14em;
+  color: #777777;
+}
+
+.main__bg {
+  height: 332rem;
+  right: 0;
+  position: absolute;
+  top: 86rem;
+  animation: animSerc 4s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.main__button {
+  margin-bottom: 33rem;
+}
+
+.pluss {
+  margin-top: 38rem;
+  display: flex;
+  margin-bottom: 62rem;
+  justify-content: center;
+}
+
+.pluss__wraper {
+  display: flex;
+  width: 755rem;
+  height: 170rem;
+  background: linear-gradient(94.13deg, #375344 -1.9%, #8FCB9B 114.46%);
+  border-radius: 15rem;
+  align-items: center;
+}
+
+.pluss__item {
+  height: 92rem;
+  display: flex;
+  position: relative;
+  margin-right: 15rem;
+}
+.pluss__item:last-child {
+  margin-right: 0;
+}
+.pluss__item:last-child::after {
+  display: none;
+}
+.pluss__item::after {
+  content: "";
+  background: black;
+  display: block;
+  margin-left: 16rem;
+  height: 100%;
+  width: 1rem;
+}
+
+.plus-wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pluss__item__img {
+  height: 40rem;
+  aspect-ratio: 1/1;
+}
+
+.pluss__item__text {
+  font-weight: 500;
+  font-size: 16rem;
+  line-height: 135%;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.partners {
+  margin-top: 78rem;
+  background: #375344;
+  box-shadow: 0px 1px 16px 7px rgba(0, 0, 0, 0.25);
+  padding: 22rem 0 27rem 0;
+  margin-bottom: 62rem;
+}
+
+.partners__heading {
+  font-weight: 500;
+  font-size: 50rem;
+  line-height: 109.5%;
+  text-transform: uppercase;
+  color: #EAE6E5;
+  margin-bottom: 2rem;
+}
+
+.partners__block {
+  background: #EAE6E5;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  height: 169px;
+  width: 100%;
+}
+
+.portfolio {
+  margin-bottom: 133rem;
+  position: relative;
+  z-index: 3;
+}
+
+.portfolio-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rem;
+}
+
+.portfolio__heading {
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #EAE6E5;
+  width: 362rem;
+}
+
+.portfolio__button {
+  overflow: hidden;
+  width: 214rem;
+  height: 40rem;
+  border: 3rem solid #EAE6E5;
+  border-radius: 39rem;
+}
+.portfolio__button.change .button-change {
+  transform: translateX(calc(-100% + 36rem));
+}
+
+.button-change {
+  display: flex;
+  align-items: start;
+  padding: 0 9rem 0 14rem;
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  transition: all 0.4s ease;
+}
+
+.mark {
+  display: flex;
+  margin-right: 26rem;
+}
+.mark::after {
+  content: "";
+  display: block;
+  height: 25rem;
+  aspect-ratio: 1/1;
+  margin-left: 6rem;
+  border-radius: 50%;
+  background: #8FCB9B;
+}
+
+.portfolio-swiper {
+  width: 100%;
+}
+
+.portfolio-slide__wraper {
+  width: 436rem;
+  height: 436rem;
+  border: 8rem solid #375344;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slide-text__wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide__heading {
+  font-weight: 400;
+  font-size: 25rem;
+  line-height: 110%;
+  color: #FFFFFF;
+  margin-top: 48rem;
+  margin-bottom: 49rem;
+}
+
+.slide__text {
+  font-weight: 300;
+  font-size: 16rem;
+  line-height: 109.5%;
+  width: 216rem;
+  margin-right: 104rem;
+}
+
+.slide-img {
+  width: 100%;
+}
+
+.slide-button {
+  width: 97rem;
+  height: 97rem;
+  background: #12130F;
+  border: 6rem solid #375344;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16rem;
+  line-height: 90%;
+  text-align: center;
+  color: #EAE6E5;
+  position: absolute;
+  top: 50%;
+  transform: translate(3%, -50%);
+  right: 0;
+}
+
+.slider-slide-wraper {
+  width: 485rem;
+  height: 436rem;
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+.portfolio-slide {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-slide.swiper-slide-prev .slider-slide-wraper {
+  transform: translateX(100%);
+}
+.portfolio-slide.swiper-slide-next .slider-slide-wraper {
+  transform: translateX(-100%);
+}
+
+.deals {
+  margin-bottom: 35rem;
+}
+
+.deals__heading {
+  font-weight: 500;
+  font-size: 50rem;
+  line-height: 109.5%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 47rem;
+}
+
+.deals-slide__heading {
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #8FCB9B;
+  margin-bottom: 12rem;
+}
+
+.deals-slide__list__item {
+  font-weight: 500;
+  font-size: 18rem;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #EAE6E5;
+  margin-bottom: 8rem;
+}
+.deals-slide__list__item:last-child {
+  margin-bottom: 0;
+}
+
+.deals-swiper {
+  margin-left: 70rem;
+  margin-bottom: 24rem;
+}
+
+.deals-slide__wraper {
+  display: flex;
+}
+.deals-slide__wraper::after {
+  content: "";
+  display: block;
+  height: 193rem;
+  width: 1rem;
+  background: #375344;
+  margin-left: 27rem;
+}
+
+.deals-slide__list {
+  margin-bottom: 32rem;
+}
+
+.deals-slide__button {
+  width: 213rem;
+  height: 43rem;
+  padding: 10rem 0;
+  padding-left: 25rem;
+  font-weight: 500;
+  font-size: 22rem;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  background: #5B9279;
+}
+
+.buttons-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-prev, .button-next {
+  width: 66rem;
+  height: 66rem;
+  border: 2rem solid #375344;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.button-prev.not-active, .button-next.not-active {
+  opacity: 0.5;
+}
+.button-prev img, .button-next img {
+  height: 23rem;
+}
+
+.opredelit {
+  padding: 25rem 0;
+  background: linear-gradient(273.41deg, #375344 0%, #5B9279 100%);
+  box-shadow: 0rem 4rem 15rem rgba(0, 0, 0, 0.25);
+  margin-bottom: 100rem;
+}
+
+.opredelit__heading {
+  font-weight: 700;
+  font-size: 50rem;
+  line-height: 109.5%;
+  color: #EAE6E5;
+  margin-bottom: 23rem;
+}
+
+.opredelit__description {
+  font-weight: 400;
+  font-size: 14rem;
+  line-height: 106.5%;
+  color: #EAE6E5;
+  width: 251rem;
+  margin-bottom: 35rem;
+}
+
+.opredelit__button {
+  width: 139rem;
+  height: 33rem;
+  border: 3rem solid #FFFFFF;
+  border-radius: 33rem;
+  font-weight: 400;
+  font-size: 14rem;
+  line-height: 106.5%;
+  color: #EAE6E5;
+}
+
+.rule {
+  margin-bottom: 189rem;
+}
+
+.rule__top {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rule__top__heading {
+  font-weight: 500;
+  font-size: 50rem;
+  line-height: 109.5%;
+  text-transform: uppercase;
+  color: #EAE6E5;
+}
+
+.rule__top__button {
+  width: 228.62rem;
+  height: 39rem;
+  font-weight: 700;
+  font-size: 16rem;
+  line-height: 149%;
+  color: #EAE6E5;
+  position: relative;
+}
+.rule__top__button img {
+  width: 218rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rule__top__button::before {
+  content: "";
+  display: block;
+  height: 18rem;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #5B9279;
+}
+
+.rule__wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rule__wraper__item {
+  width: 288rem;
+  height: 380rem;
+  background: #131313;
+  box-shadow: 0rem 7rem 16rem rgba(91, 146, 121, 0.37);
+  border-radius: 15rem;
+  padding: 29rem 12rem 0 11rem;
+  position: relative;
+}
+
+.rule__wraper__item__heading {
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin-bottom: 22rem;
+}
+.rule__wraper__item__heading::before {
+  content: "";
+  display: block;
+  height: 26rem;
+  aspect-ratio: 1/1;
+  margin-right: 10rem;
+  background: #FF964C;
+  border-radius: 50%;
+}
+
+.rule__wraper__item__text {
+  font-weight: 400;
+  font-size: 14rem;
+  line-height: 106.5%;
+  color: #FFFFFF;
+  margin-bottom: 33rem;
+}
+.rule__wraper__item__text:last-child {
+  margin-bottom: 0;
+}
+
+.rule__wraper__item__bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 300rem;
+}
+
+.rule-text {
+  position: relative;
+  display: flex;
+}
+.rule-text::before {
+  content: "";
+  display: block;
+  height: 290rem;
+  width: 2rem;
+  background: #375344;
+  margin-right: 16rem;
+}
+
+.calculator__heading {
+  font-weight: 500;
+  font-size: 50rem;
+  line-height: 109.5%;
+  text-transform: uppercase;
+  color: #EAE6E5;
+  margin-bottom: 17rem;
+  width: 734rem;
+}
+
+.calculator__description {
+  font-weight: 600;
+  font-size: 25rem;
+  line-height: 123%;
+  color: #EAE6E5;
+  margin-bottom: 22rem;
+}
+
+.calculator-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-wraper__right {
+  padding: 44rem 17rem 24rem 4rem;
+  width: 274rem;
+  height: 274rem;
+  background: #12130F;
+  box-shadow: 0rem 7rem 16rem rgba(91, 146, 121, 0.37);
+  border-radius: 15rem;
+  position: relative;
+}
+
+.calculator-wraper__right__heading {
+  font-weight: 400;
+  font-size: 18rem;
+  line-height: 106.5%;
+  color: #FFFFFF;
+  margin-bottom: 66rem;
+}
+
+.calculator-wraper__right__price {
+  background: #12130F;
+  border: 3rem solid #74DFA5;
+  position: absolute;
+  width: 298rem;
+  height: 57rem;
+  top: 67rem;
+  left: -14rem;
+  padding-left: 21rem;
+}
+.calculator-wraper__right__price p {
+  font-weight: 700;
+  font-size: 50rem;
+  color: #FFFFFF;
+}
+.calculator-wraper__right__price p span {
+  font-size: 24rem;
+}
+
+.calculator-wraper__right__description {
+  font-weight: 400;
+  font-size: 14rem;
+  line-height: 106.5%;
+  color: #A5A5A5;
+  margin-bottom: 35rem;
+}
+
+.calculator-wraper__right__button {
+  position: relative;
+  width: 236rem;
+  height: 52rem;
+  border-radius: 33rem;
+  font-weight: 700;
+  font-size: 18rem;
+  line-height: 106.5%;
+  color: #FFFFFF;
+  margin-left: 14rem;
+  background: #12130F;
+  z-index: 4;
+}
+
+.button-color-border {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.button-border {
+  background: linear-gradient(180deg, #81FFBB 0%, rgba(74, 99, 85, 0.46) 100%);
+  width: 240rem;
+  height: 56rem;
+  position: absolute;
+  border-radius: 33rem;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-47%, -49%);
+}
+
+.scroll-heading {
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-bottom: 10rem;
+  width: 518rem;
+}
+.scroll-heading.last {
+  text-align: center;
+}
+
+.answer {
+  cursor: pointer;
+  display: block;
+  width: 123rem;
+  height: 123rem;
+  background: #EAE6E5;
+  box-shadow: 0rem 4rem 11rem rgba(0, 0, 0, 0.25);
+  border-radius: 15rem;
+  margin-right: 16rem;
+  padding: 10rem 8rem;
+  position: relative;
+}
+.answer:last-child {
+  margin-right: 0;
+}
+
+.radio-label.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 7rem;
+  left: 7rem;
+  height: 17rem;
+  aspect-ratio: 1/1;
+  background: #86C196;
+  border-radius: 50%;
+}
+
+.scroll-item__wraper {
+  display: flex;
+}
+.scroll-item__wraper.last {
+  width: 100%;
+  margin-left: 71rem;
+}
+
+.label-name {
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 106.5%;
+  color: #12130F;
+}
+
+.label-bg {
+  width: 85rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.calculator-wraper__left__scroll {
+  margin-bottom: 24rem;
+}
+
+.numofquest {
+  display: flex;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+}
+.numofquest p {
+  color: #73DEA5;
+}
+.numofquest span {
+  color: #73DEA5;
+}
+
+.secquests {
+  display: none;
+}
+.secquests.active {
+  display: flex;
+}
+
+.calculator-wraper__left__info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.quiz__buttons {
+  display: flex;
+  align-items: flex-end;
+}
+
+.quiz__buttons__prew {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 106.5%;
+  color: #FFFFFF;
+  margin-right: 34rem;
+  position: relative;
+  transition: all 0.4s ease;
+}
+.quiz__buttons__prew::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 1rem;
+  width: 100%;
+  background: #8FCB9B;
+  margin-top: 3rem;
+}
+.quiz__buttons__prew.not-active {
+  opacity: 0.54;
+}
+
+.webSec {
+  display: none;
+}
+
+.quiz__buttons__next {
+  cursor: pointer;
+  width: 145rem;
+  height: 44rem;
+  font-weight: 700;
+  font-size: 18rem;
+  padding-left: 30rem;
+  line-height: 106.5%;
+  color: #FFFFFF;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+.quiz__buttons__next.not-active {
+  width: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.calculator-wraper__left {
+  padding: 25rem;
+  width: 596rem;
+  height: 274rem;
+  background: #12130F;
+  box-shadow: 0rem 7rem 16rem rgba(91, 146, 121, 0.37);
+  border-radius: 15rem;
+  overflow: hidden;
+}
+
+.inv-form {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.calculator-wraper__left__scroll {
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: row;
+}
+
+.calculator-wraper__left__scroll__item {
+  margin-right: 200px;
+  flex-shrink: 0;
+  width: 808rem;
+}
+
+.second-quests {
+  display: flex;
+  max-width: 808rem;
+  margin-right: 200px;
+}
+
+.label-two {
+  display: block;
+  width: 103rem;
+  height: 24rem;
+  background: #EAE6E5;
+  border-radius: 23rem;
+  font-weight: 700;
+  font-size: 18rem;
+  line-height: 106.5%;
+  color: #131313;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label-two.long {
+  width: 475rem;
+  font-weight: 400;
+  font-size: 14rem;
+  line-height: 106.5%;
+  color: #131313;
+  justify-content: flex-start;
+  padding-left: 29rem;
+}
+
+.second-quest {
+  margin-bottom: 14rem;
+  position: relative;
+}
+.second-quest:last-child {
+  margin-bottom: 0;
+}
+.second-quest.active::after {
+  content: "";
+  display: block;
+  height: 19rem;
+  aspect-ratio: 1/1;
+  position: absolute;
+  background: #FF964C;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 7rem;
+}
+
+.second-quests {
+  flex-shrink: 0;
+}
+.second-quests .scroll-item__wraper {
+  flex-direction: column;
+}
+
+.textoThis {
+  width: 100rem;
+  height: 30rem;
+  background: green;
+  color: red;
+  font-size: 30rem;
+}
+
+.quiz-textarea {
+  width: 517rem;
+  height: 100rem;
+  color: black;
+  background: #EAE6E5;
+  border-radius: 11px;
+  padding: 6rem;
+}
+
+.inp {
+  width: 390rem;
+  height: 30rem;
+  background: #FFFFFF;
+  border-radius: 33rem;
+  margin-bottom: 4rem;
+  color: black;
+  padding: 11rem 20rem;
+}
+
+.subbtnlabel {
+  display: flex;
+  width: 145rem;
+  height: 30rem;
+  background: linear-gradient(90deg, #8FCB9B 0%, #5B9279 100%);
+  border-radius: 33rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18rem;
+  line-height: 106.5%;
+  color: #FFFFFF;
+  margin-left: 124rem;
+  cursor: pointer;
+}
+
+.etaps {
+  margin-top: 137rem;
+  margin-bottom: 180rem;
+}
+
+.etaps__wraper__bg {
+  width: 100%;
+}
+
+.etaps__heading {
+  font-weight: 500;
+  font-size: 50rem;
+  line-height: 109.5%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 10rem;
+}
+
+.etaps__desc {
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-bottom: 13rem;
+}
+
+.zayavka {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 122rem;
+}
+
+.zayavka__img {
+  height: 332rem;
+  aspect-ratio: 1/1;
+}
+
+.zayavka__heading {
+  font-weight: 700;
+  font-size: 48rem;
+  line-height: 123%;
+  color: #EAE6E5;
+}
+
+.zayavka__desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 106.5%;
+  color: #EAE6E5;
+  margin-bottom: 20rem;
+}
+
+.zayavka__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 468rem;
+}
+
+.zayavka__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.zayavka__form input {
+  width: 423rem;
+  height: 62rem;
+  background: #EAE6E5;
+  box-shadow: 0rem 4rem 4rem rgba(0, 0, 0, 0.25);
+  border-radius: 40rem;
+  padding-left: 20rem;
+  font-weight: 400;
+  font-size: 24rem;
+  line-height: 106.5%;
+  margin-bottom: 11rem;
+  color: #12130F;
+}
+.zayavka__form input:last-child {
+  margin-bottom: 21rem;
+}
+.zayavka__form button {
+  width: 341rem;
+  height: 50rem;
+  background: linear-gradient(94.13deg, #375344 -1.9%, #8FCB9B 114.46%);
+  border-radius: 40rem;
+  font-weight: 400;
+  font-size: 24rem;
+  line-height: 106.5%;
+  color: #FFFFFF;
+}
+
+footer {
+  display: flex;
+  padding: 30rem 0 54rem 0;
+}
+
+.footer__logo {
+  height: 70rem;
+  margin-right: 72rem;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70rem;
+  width: 458rem;
+  margin-right: 30rem;
+  flex-shrink: 0;
+}
+
+.footer__menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__menu__list li {
+  font-weight: 300;
+  font-size: 12rem;
+  line-height: 90%;
+  color: #EAE6E5;
+}
+
+.footer__menu__btm {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer__menu__btm__polityc, .footer__menu__btm__copyryting {
+  font-weight: 600;
+  font-size: 12rem;
+  line-height: 90%;
+  text-align: center;
+  color: #B5B5B5;
+  opacity: 0.3;
+}
+
+.footer__contacts {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer__contacts__phone, .footer__contacts__email {
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 123%;
+  letter-spacing: 0.14em;
+  color: #636363;
+  margin-bottom: 6rem;
+}
+
+.check {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  opacity: 0.3;
+}
+
+#stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 199rem 1090rem #fff , 1032rem 1287rem #fff , 1669rem 1836rem #fff , 1214rem 1992rem #fff , 1858rem 1892rem #fff , 255rem 1458rem #fff , 411rem 1221rem #fff , 1797rem 612rem #fff , 1rem 565rem #fff , 1884rem 1861rem #fff , 1911rem 600rem #fff , 1854rem 515rem #fff , 227rem 877rem #fff , 494rem 1002rem #fff , 1459rem 353rem #fff , 1787rem 381rem #fff , 271rem 569rem #fff , 168rem 724rem #fff , 676rem 1989rem #fff , 586rem 841rem #fff , 378rem 557rem #fff , 1600rem 1309rem #fff , 1304rem 119rem #fff , 1435rem 632rem #fff , 298rem 1699rem #fff , 280rem 1844rem #fff , 1020rem 1920rem #fff , 772rem 88rem #fff , 466rem 1535rem #fff , 171rem 819rem #fff , 1295rem 1636rem #fff , 757rem 826rem #fff , 1932rem 179rem #fff , 1811rem 1417rem #fff , 1627rem 1389rem #fff , 1219rem 1123rem #fff , 1365rem 518rem #fff , 317rem 466rem #fff , 523rem 473rem #fff , 1580rem 1439rem #fff , 219rem 507rem #fff , 346rem 138rem #fff , 145rem 1746rem #fff , 472rem 1341rem #fff , 380rem 1239rem #fff , 1399rem 774rem #fff , 1960rem 380rem #fff , 279rem 1718rem #fff , 1997rem 242rem #fff , 1647rem 1862rem #fff , 1866rem 1071rem #fff , 293rem 755rem #fff , 935rem 722rem #fff , 1320rem 223rem #fff , 1838rem 529rem #fff , 1320rem 1116rem #fff , 1698rem 1789rem #fff , 1510rem 1335rem #fff , 1610rem 1509rem #fff , 2rem 1976rem #fff , 852rem 1013rem #fff , 1807rem 101rem #fff , 1423rem 257rem #fff , 1631rem 1279rem #fff , 643rem 391rem #fff , 1293rem 1994rem #fff , 383rem 1795rem #fff , 741rem 1513rem #fff , 1793rem 1588rem #fff , 834rem 1145rem #fff , 1357rem 509rem #fff , 1712rem 881rem #fff , 77rem 992rem #fff , 1604rem 524rem #fff , 677rem 342rem #fff , 1423rem 1242rem #fff , 1198rem 211rem #fff , 810rem 1533rem #fff , 1504rem 1471rem #fff , 711rem 479rem #fff , 950rem 972rem #fff , 1434rem 1017rem #fff , 1915rem 546rem #fff , 1rem 1094rem #fff , 1895rem 1668rem #fff , 93rem 346rem #fff , 1160rem 1449rem #fff , 353rem 1650rem #fff , 1033rem 1661rem #fff , 1606rem 926rem #fff , 1683rem 594rem #fff , 576rem 1773rem #fff , 1459rem 852rem #fff , 860rem 1787rem #fff , 361rem 1774rem #fff , 1381rem 330rem #fff , 1306rem 1959rem #fff , 854rem 19rem #fff , 1228rem 28rem #fff , 1288rem 473rem #fff , 1948rem 1492rem #fff , 1835rem 509rem #fff , 841rem 1747rem #fff , 720rem 1464rem #fff , 1779rem 1337rem #fff , 1576rem 452rem #fff , 1722rem 1280rem #fff , 601rem 1530rem #fff , 920rem 372rem #fff , 1905rem 812rem #fff , 1089rem 1873rem #fff , 1779rem 241rem #fff , 998rem 1334rem #fff , 1687rem 191rem #fff , 1024rem 1481rem #fff , 857rem 300rem #fff , 1763rem 1936rem #fff , 1683rem 830rem #fff , 534rem 1470rem #fff , 1459rem 570rem #fff , 1183rem 1013rem #fff , 1589rem 713rem #fff , 687rem 1517rem #fff , 199rem 940rem #fff , 1706rem 1481rem #fff , 372rem 1205rem #fff , 1010rem 942rem #fff , 975rem 733rem #fff , 1559rem 1377rem #fff , 1052rem 1296rem #fff , 1147rem 571rem #fff , 1022rem 1380rem #fff , 199rem 1553rem #fff , 971rem 451rem #fff , 216rem 785rem #fff , 1169rem 1930rem #fff , 1265rem 1355rem #fff , 541rem 937rem #fff , 1986rem 1535rem #fff , 1551rem 1116rem #fff , 754rem 250rem #fff , 1421rem 124rem #fff , 155rem 1249rem #fff , 990rem 802rem #fff , 1818rem 478rem #fff , 339rem 1000rem #fff , 1145rem 858rem #fff , 558rem 1129rem #fff , 1350rem 966rem #fff , 976rem 1816rem #fff , 844rem 339rem #fff , 1499rem 1331rem #fff , 1476rem 1548rem #fff , 1727rem 1809rem #fff , 1724rem 541rem #fff , 118rem 1473rem #fff , 442rem 52rem #fff , 219rem 452rem #fff , 379rem 736rem #fff , 1546rem 14rem #fff , 128rem 1077rem #fff , 854rem 481rem #fff , 1633rem 63rem #fff , 1040rem 665rem #fff , 548rem 1747rem #fff , 278rem 306rem #fff , 949rem 607rem #fff , 430rem 989rem #fff , 1930rem 288rem #fff , 805rem 1283rem #fff , 1676rem 1672rem #fff , 947rem 151rem #fff , 1221rem 1680rem #fff , 286rem 225rem #fff , 1720rem 692rem #fff , 20rem 1744rem #fff , 1059rem 1072rem #fff , 1306rem 727rem #fff , 1298rem 780rem #fff , 843rem 120rem #fff , 784rem 316rem #fff , 130rem 1990rem #fff , 1010rem 624rem #fff , 2000rem 1136rem #fff , 1998rem 1146rem #fff , 473rem 1102rem #fff , 616rem 1738rem #fff , 408rem 630rem #fff , 475rem 1519rem #fff , 239rem 1824rem #fff , 319rem 623rem #fff , 682rem 284rem #fff , 1369rem 1145rem #fff , 805rem 1297rem #fff , 1947rem 1107rem #fff , 341rem 1778rem #fff , 1586rem 1840rem #fff , 1604rem 1913rem #fff , 178rem 1596rem #fff , 1898rem 432rem #fff , 910rem 244rem #fff , 1733rem 1356rem #fff , 993rem 111rem #fff , 1874rem 1515rem #fff , 812rem 1810rem #fff , 973rem 622rem #fff , 1774rem 265rem #fff , 881rem 1635rem #fff , 1469rem 236rem #fff , 734rem 1684rem #fff , 1492rem 763rem #fff , 1804rem 1161rem #fff , 1634rem 1579rem #fff , 1958rem 301rem #fff , 1117rem 1898rem #fff , 744rem 1329rem #fff , 407rem 350rem #fff , 313rem 667rem #fff , 1665rem 1321rem #fff , 229rem 1902rem #fff , 1439rem 962rem #fff , 1948rem 133rem #fff , 832rem 569rem #fff , 420rem 982rem #fff , 1232rem 567rem #fff , 386rem 1196rem #fff , 1121rem 1059rem #fff , 445rem 1168rem #fff , 1864rem 1779rem #fff , 226rem 186rem #fff , 1090rem 201rem #fff , 32rem 1855rem #fff , 767rem 1373rem #fff , 1139rem 421rem #fff , 1094rem 1269rem #fff , 1441rem 505rem #fff , 129rem 1143rem #fff , 1656rem 1730rem #fff , 826rem 1558rem #fff , 1084rem 1948rem #fff , 87rem 1144rem #fff , 1341rem 1015rem #fff , 232rem 1176rem #fff , 1512rem 1038rem #fff , 929rem 692rem #fff , 1621rem 430rem #fff , 1386rem 1072rem #fff , 1223rem 1226rem #fff , 326rem 708rem #fff , 1133rem 1770rem #fff , 1370rem 253rem #fff , 183rem 953rem #fff , 42rem 185rem #fff , 777rem 956rem #fff , 843rem 1484rem #fff , 1206rem 664rem #fff , 806rem 879rem #fff , 1266rem 411rem #fff , 1111rem 1927rem #fff , 441rem 142rem #fff , 108rem 975rem #fff , 231rem 626rem #fff , 1621rem 1074rem #fff , 950rem 1094rem #fff , 432rem 159rem #fff , 1129rem 95rem #fff , 40rem 1919rem #fff , 1847rem 861rem #fff , 1177rem 1965rem #fff , 1512rem 123rem #fff , 227rem 1098rem #fff , 1795rem 1083rem #fff , 633rem 1089rem #fff , 823rem 431rem #fff , 991rem 1097rem #fff , 1492rem 594rem #fff , 448rem 848rem #fff , 1384rem 1769rem #fff , 1706rem 33rem #fff , 42rem 674rem #fff , 459rem 1539rem #fff , 1813rem 4rem #fff , 1504rem 1542rem #fff , 673rem 1395rem #fff , 1090rem 504rem #fff , 1727rem 501rem #fff , 398rem 322rem #fff , 1329rem 1558rem #fff , 1432rem 1214rem #fff , 1832rem 917rem #fff , 16rem 594rem #fff , 860rem 179rem #fff , 1896rem 314rem #fff , 779rem 1582rem #fff , 1757rem 1189rem #fff , 1444rem 1028rem #fff , 562rem 950rem #fff , 421rem 1467rem #fff , 896rem 996rem #fff , 458rem 1777rem #fff , 1941rem 45rem #fff , 395rem 960rem #fff , 1763rem 461rem #fff , 842rem 1100rem #fff , 514rem 93rem #fff , 1530rem 533rem #fff , 1424rem 1766rem #fff , 533rem 1316rem #fff , 1015rem 236rem #fff , 1985rem 1691rem #fff , 1813rem 1907rem #fff , 596rem 193rem #fff , 598rem 425rem #fff , 1045rem 89rem #fff , 108rem 1238rem #fff , 1446rem 1098rem #fff , 29rem 1173rem #fff , 1631rem 840rem #fff , 1204rem 753rem #fff , 1039rem 317rem #fff , 1162rem 489rem #fff , 597rem 572rem #fff , 1078rem 675rem #fff , 190rem 1367rem #fff , 1435rem 233rem #fff , 1535rem 1681rem #fff , 1002rem 403rem #fff , 931rem 1216rem #fff , 734rem 1848rem #fff , 867rem 821rem #fff , 1813rem 1341rem #fff , 586rem 912rem #fff , 680rem 1745rem #fff , 92rem 329rem #fff , 884rem 400rem #fff , 1581rem 1911rem #fff , 1937rem 1142rem #fff , 149rem 1908rem #fff , 1807rem 187rem #fff , 1356rem 1918rem #fff , 78rem 845rem #fff , 58rem 932rem #fff , 1185rem 1201rem #fff , 1672rem 549rem #fff , 654rem 1756rem #fff , 949rem 466rem #fff , 1720rem 1724rem #fff , 1918rem 1938rem #fff , 1704rem 29rem #fff , 1094rem 665rem #fff , 411rem 441rem #fff , 341rem 1305rem #fff , 1083rem 783rem #fff , 492rem 1673rem #fff , 1818rem 1468rem #fff , 1232rem 102rem #fff , 641rem 1936rem #fff , 1232rem 1413rem #fff , 283rem 1659rem #fff , 1297rem 866rem #fff , 579rem 929rem #fff , 544rem 1387rem #fff , 302rem 807rem #fff , 1348rem 1875rem #fff , 1069rem 453rem #fff , 684rem 85rem #fff , 829rem 681rem #fff , 245rem 947rem #fff , 45rem 780rem #fff , 598rem 1180rem #fff , 1474rem 1497rem #fff , 1297rem 851rem #fff , 487rem 1516rem #fff , 462rem 1096rem #fff , 1097rem 564rem #fff , 1750rem 1039rem #fff , 578rem 227rem #fff , 221rem 643rem #fff , 1733rem 1579rem #fff , 638rem 1633rem #fff , 300rem 1803rem #fff , 179rem 1764rem #fff , 1005rem 39rem #fff , 354rem 1012rem #fff , 326rem 1922rem #fff , 992rem 1771rem #fff , 1411rem 1804rem #fff , 1454rem 1503rem #fff , 402rem 514rem #fff , 1116rem 169rem #fff , 1986rem 949rem #fff , 956rem 1465rem #fff , 1439rem 1853rem #fff , 1353rem 1885rem #fff , 1141rem 1438rem #fff , 964rem 802rem #fff , 142rem 607rem #fff , 1689rem 790rem #fff , 304rem 1174rem #fff , 1051rem 827rem #fff , 62rem 453rem #fff , 690rem 1830rem #fff , 1857rem 1149rem #fff , 1652rem 1179rem #fff , 1991rem 1168rem #fff , 123rem 1974rem #fff , 481rem 1364rem #fff , 961rem 1237rem #fff , 166rem 1449rem #fff , 68rem 1819rem #fff , 1814rem 132rem #fff , 254rem 1372rem #fff , 94rem 474rem #fff , 1236rem 1625rem #fff , 40rem 1694rem #fff , 1689rem 508rem #fff , 1740rem 253rem #fff , 241rem 1091rem #fff , 1505rem 697rem #fff , 436rem 1140rem #fff , 1694rem 869rem #fff , 412rem 1843rem #fff , 1993rem 441rem #fff , 490rem 1754rem #fff , 273rem 335rem #fff , 1294rem 966rem #fff , 1953rem 1591rem #fff , 1669rem 1358rem #fff , 950rem 1605rem #fff , 1537rem 1872rem #fff , 387rem 317rem #fff , 457rem 1376rem #fff , 1187rem 1192rem #fff , 317rem 1903rem #fff , 1958rem 62rem #fff , 1456rem 1466rem #fff , 1594rem 1696rem #fff , 1975rem 843rem #fff , 333rem 1691rem #fff , 1678rem 425rem #fff , 1650rem 1217rem #fff , 180rem 1801rem #fff , 1098rem 1272rem #fff , 764rem 1541rem #fff , 1479rem 1935rem #fff , 921rem 453rem #fff , 190rem 1158rem #fff , 1163rem 1492rem #fff , 560rem 1517rem #fff , 707rem 1235rem #fff , 199rem 470rem #fff , 743rem 300rem #fff , 1027rem 63rem #fff , 459rem 1851rem #fff , 569rem 1796rem #fff , 1343rem 1362rem #fff , 1627rem 1974rem #fff , 1574rem 1498rem #fff , 1938rem 754rem #fff , 1171rem 261rem #fff , 378rem 394rem #fff , 1171rem 957rem #fff , 374rem 664rem #fff , 558rem 1281rem #fff , 1583rem 1945rem #fff , 1687rem 752rem #fff , 20rem 256rem #fff , 1060rem 1381rem #fff , 1708rem 724rem #fff , 917rem 1081rem #fff , 549rem 1786rem #fff , 334rem 1128rem #fff , 788rem 906rem #fff , 1777rem 752rem #fff , 1160rem 823rem #fff , 139rem 734rem #fff , 1113rem 1107rem #fff , 862rem 1791rem #fff , 1312rem 848rem #fff , 763rem 1134rem #fff , 1642rem 1309rem #fff , 402rem 507rem #fff , 303rem 1529rem #fff , 67rem 1752rem #fff , 1072rem 1032rem #fff , 1141rem 1042rem #fff , 424rem 1341rem #fff , 219rem 1029rem #fff , 865rem 1509rem #fff , 1919rem 1276rem #fff , 601rem 1660rem #fff , 1358rem 1789rem #fff , 1673rem 715rem #fff , 122rem 1014rem #fff , 1907rem 1124rem #fff , 1190rem 1251rem #fff , 591rem 1123rem #fff , 1724rem 579rem #fff , 1821rem 1030rem #fff , 1576rem 725rem #fff , 1007rem 462rem #fff , 726rem 414rem #fff , 1858rem 677rem #fff , 1275rem 1055rem #fff , 1296rem 687rem #fff , 657rem 1160rem #fff , 1823rem 731rem #fff , 965rem 1927rem #fff , 769rem 1627rem #fff , 351rem 525rem #fff , 786rem 557rem #fff , 655rem 1343rem #fff , 613rem 1293rem #fff , 1799rem 90rem #fff , 1231rem 787rem #fff , 836rem 1569rem #fff , 1087rem 1240rem #fff , 1616rem 949rem #fff , 230rem 359rem #fff , 1420rem 478rem #fff , 428rem 1877rem #fff , 989rem 131rem #fff , 104rem 1519rem #fff , 1124rem 1463rem #fff , 1675rem 1693rem #fff , 1974rem 1129rem #fff , 402rem 330rem #fff , 330rem 599rem #fff , 938rem 1727rem #fff , 1458rem 1562rem #fff , 370rem 1434rem #fff , 1911rem 818rem #fff , 513rem 809rem #fff , 278rem 803rem #fff , 1347rem 1605rem #fff , 364rem 1683rem #fff , 92rem 1012rem #fff , 1380rem 1083rem #fff , 319rem 1860rem #fff , 168rem 1586rem #fff , 820rem 1382rem #fff , 1108rem 840rem #fff , 1867rem 619rem #fff , 1096rem 108rem #fff , 1908rem 256rem #fff , 917rem 600rem #fff , 1102rem 72rem #fff , 1515rem 585rem #fff , 1858rem 1210rem #fff , 1746rem 466rem #fff , 1078rem 490rem #fff , 133rem 395rem #fff , 118rem 1619rem #fff , 458rem 1539rem #fff , 696rem 630rem #fff , 727rem 476rem #fff , 1413rem 1428rem #fff , 1851rem 1453rem #fff , 216rem 1714rem #fff , 329rem 1338rem #fff , 524rem 1944rem #fff , 615rem 434rem #fff , 815rem 252rem #fff , 1118rem 615rem #fff , 965rem 592rem #fff , 1916rem 247rem #fff , 246rem 1924rem #fff , 1349rem 1099rem #fff , 70rem 448rem #fff , 73rem 593rem #fff , 1937rem 1850rem #fff , 398rem 561rem #fff , 971rem 1998rem #fff , 628rem 1271rem #fff , 1541rem 1500rem #fff , 143rem 789rem #fff , 729rem 1029rem #fff , 534rem 1324rem #fff , 1277rem 974rem #fff , 64rem 1944rem #fff , 873rem 1392rem #fff , 1092rem 1759rem #fff , 110rem 1600rem #fff , 653rem 1414rem #fff , 1337rem 1110rem #fff , 1877rem 456rem #fff , 460rem 575rem #fff , 46rem 1403rem #fff , 805rem 83rem #fff , 1069rem 653rem #fff , 107rem 1977rem #fff , 1187rem 35rem #fff , 712rem 1975rem #fff , 1924rem 405rem #fff , 1698rem 65rem #fff , 1508rem 710rem #fff , 628rem 1467rem #fff , 1713rem 1398rem #fff , 533rem 858rem #fff , 900rem 1035rem #fff , 986rem 1419rem #fff , 219rem 1229rem #fff , 591rem 1613rem #fff , 1279rem 1731rem #fff , 1691rem 1862rem #fff , 1911rem 419rem #fff , 1400rem 1186rem #fff , 1570rem 104rem #fff , 1167rem 1319rem #fff , 1066rem 1872rem #fff , 448rem 1547rem #fff , 494rem 29rem #fff , 1304rem 1820rem #fff , 848rem 1862rem #fff , 1544rem 1558rem #fff , 59rem 1201rem #fff , 295rem 887rem #fff , 2000rem 1428rem #fff , 165rem 865rem #fff , 1731rem 1581rem #fff , 1975rem 1358rem #fff , 1293rem 924rem #fff , 742rem 1514rem #fff , 1980rem 879rem #fff , 839rem 1729rem #fff , 986rem 1791rem #fff , 1338rem 892rem #fff , 370rem 1183rem #fff , 887rem 1797rem #fff , 810rem 1016rem #fff , 1826rem 183rem #fff , 300rem 312rem #fff , 1353rem 1707rem #fff , 840rem 1952rem #fff , 1805rem 1928rem #fff , 675rem 633rem #fff , 1rem 1349rem #fff , 241rem 964rem #fff , 1051rem 1838rem #fff , 1232rem 942rem #fff , 918rem 1534rem #fff , 903rem 382rem #fff , 1586rem 1669rem #fff , 772rem 390rem #fff , 702rem 391rem #fff , 146rem 1875rem #fff , 1496rem 748rem #fff , 366rem 1834rem #fff , 1567rem 516rem #fff , 1449rem 405rem #fff , 1983rem 1688rem #fff , 262rem 1359rem #fff , 1411rem 15rem #fff , 505rem 803rem #fff , 1658rem 1728rem #fff , 1244rem 62rem #fff , 1699rem 1432rem #fff , 1254rem 418rem #fff , 814rem 1970rem #fff , 287rem 1645rem #fff , 1180rem 1594rem #fff , 1200rem 95rem #fff , 1459rem 45rem #fff , 1555rem 879rem #fff , 738rem 1605rem #fff , 1451rem 1256rem #fff , 202rem 451rem #fff , 206rem 1180rem #fff , 1162rem 998rem #fff , 1661rem 1023rem #fff , 1732rem 151rem #fff , 542rem 222rem #fff , 241rem 70rem #fff , 417rem 1681rem #fff , 1915rem 24rem #fff , 559rem 282rem #fff , 755rem 580rem #fff , 1291rem 1869rem #fff , 1536rem 672rem #fff , 675rem 838rem #fff , 2rem 1237rem #fff , 1594rem 1696rem #fff , 104rem 1611rem #fff , 1881rem 1466rem #fff , 1578rem 244rem #fff , 462rem 1345rem #fff , 629rem 1910rem #fff , 256rem 306rem #fff , 1517rem 1761rem #fff , 1334rem 1565rem #fff , 1792rem 1112rem #fff , 1114rem 943rem #fff , 357rem 536rem #fff , 293rem 1939rem #fff , 526rem 1054rem #fff , 1585rem 1202rem #fff , 146rem 281rem #fff , 834rem 647rem #fff , 569rem 1698rem #fff , 6rem 1899rem #fff;
+  animation: animStar 50s linear infinite;
+}
+
+#stars:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 199rem 1090rem #fff , 1032rem 1287rem #fff , 1669rem 1836rem #fff , 1214rem 1992rem #fff , 1858rem 1892rem #fff , 255rem 1458rem #fff , 411rem 1221rem #fff , 1797rem 612rem #fff , 1rem 565rem #fff , 1884rem 1861rem #fff , 1911rem 600rem #fff , 1854rem 515rem #fff , 227rem 877rem #fff , 494rem 1002rem #fff , 1459rem 353rem #fff , 1787rem 381rem #fff , 271rem 569rem #fff , 168rem 724rem #fff , 676rem 1989rem #fff , 586rem 841rem #fff , 378rem 557rem #fff , 1600rem 1309rem #fff , 1304rem 119rem #fff , 1435rem 632rem #fff , 298rem 1699rem #fff , 280rem 1844rem #fff , 1020rem 1920rem #fff , 772rem 88rem #fff , 466rem 1535rem #fff , 171rem 819rem #fff , 1295rem 1636rem #fff , 757rem 826rem #fff , 1932rem 179rem #fff , 1811rem 1417rem #fff , 1627rem 1389rem #fff , 1219rem 1123rem #fff , 1365rem 518rem #fff , 317rem 466rem #fff , 523rem 473rem #fff , 1580rem 1439rem #fff , 219rem 507rem #fff , 346rem 138rem #fff , 145rem 1746rem #fff , 472rem 1341rem #fff , 380rem 1239rem #fff , 1399rem 774rem #fff , 1960rem 380rem #fff , 279rem 1718rem #fff , 1997rem 242rem #fff , 1647rem 1862rem #fff , 1866rem 1071rem #fff , 293rem 755rem #fff , 935rem 722rem #fff , 1320rem 223rem #fff , 1838rem 529rem #fff , 1320rem 1116rem #fff , 1698rem 1789rem #fff , 1510rem 1335rem #fff , 1610rem 1509rem #fff , 2rem 1976rem #fff , 852rem 1013rem #fff , 1807rem 101rem #fff , 1423rem 257rem #fff , 1631rem 1279rem #fff , 643rem 391rem #fff , 1293rem 1994rem #fff , 383rem 1795rem #fff , 741rem 1513rem #fff , 1793rem 1588rem #fff , 834rem 1145rem #fff , 1357rem 509rem #fff , 1712rem 881rem #fff , 77rem 992rem #fff , 1604rem 524rem #fff , 677rem 342rem #fff , 1423rem 1242rem #fff , 1198rem 211rem #fff , 810rem 1533rem #fff , 1504rem 1471rem #fff , 711rem 479rem #fff , 950rem 972rem #fff , 1434rem 1017rem #fff , 1915rem 546rem #fff , 1rem 1094rem #fff , 1895rem 1668rem #fff , 93rem 346rem #fff , 1160rem 1449rem #fff , 353rem 1650rem #fff , 1033rem 1661rem #fff , 1606rem 926rem #fff , 1683rem 594rem #fff , 576rem 1773rem #fff , 1459rem 852rem #fff , 860rem 1787rem #fff , 361rem 1774rem #fff , 1381rem 330rem #fff , 1306rem 1959rem #fff , 854rem 19rem #fff , 1228rem 28rem #fff , 1288rem 473rem #fff , 1948rem 1492rem #fff , 1835rem 509rem #fff , 841rem 1747rem #fff , 720rem 1464rem #fff , 1779rem 1337rem #fff , 1576rem 452rem #fff , 1722rem 1280rem #fff , 601rem 1530rem #fff , 920rem 372rem #fff , 1905rem 812rem #fff , 1089rem 1873rem #fff , 1779rem 241rem #fff , 998rem 1334rem #fff , 1687rem 191rem #fff , 1024rem 1481rem #fff , 857rem 300rem #fff , 1763rem 1936rem #fff , 1683rem 830rem #fff , 534rem 1470rem #fff , 1459rem 570rem #fff , 1183rem 1013rem #fff , 1589rem 713rem #fff , 687rem 1517rem #fff , 199rem 940rem #fff , 1706rem 1481rem #fff , 372rem 1205rem #fff , 1010rem 942rem #fff , 975rem 733rem #fff , 1559rem 1377rem #fff , 1052rem 1296rem #fff , 1147rem 571rem #fff , 1022rem 1380rem #fff , 199rem 1553rem #fff , 971rem 451rem #fff , 216rem 785rem #fff , 1169rem 1930rem #fff , 1265rem 1355rem #fff , 541rem 937rem #fff , 1986rem 1535rem #fff , 1551rem 1116rem #fff , 754rem 250rem #fff , 1421rem 124rem #fff , 155rem 1249rem #fff , 990rem 802rem #fff , 1818rem 478rem #fff , 339rem 1000rem #fff , 1145rem 858rem #fff , 558rem 1129rem #fff , 1350rem 966rem #fff , 976rem 1816rem #fff , 844rem 339rem #fff , 1499rem 1331rem #fff , 1476rem 1548rem #fff , 1727rem 1809rem #fff , 1724rem 541rem #fff , 118rem 1473rem #fff , 442rem 52rem #fff , 219rem 452rem #fff , 379rem 736rem #fff , 1546rem 14rem #fff , 128rem 1077rem #fff , 854rem 481rem #fff , 1633rem 63rem #fff , 1040rem 665rem #fff , 548rem 1747rem #fff , 278rem 306rem #fff , 949rem 607rem #fff , 430rem 989rem #fff , 1930rem 288rem #fff , 805rem 1283rem #fff , 1676rem 1672rem #fff , 947rem 151rem #fff , 1221rem 1680rem #fff , 286rem 225rem #fff , 1720rem 692rem #fff , 20rem 1744rem #fff , 1059rem 1072rem #fff , 1306rem 727rem #fff , 1298rem 780rem #fff , 843rem 120rem #fff , 784rem 316rem #fff , 130rem 1990rem #fff , 1010rem 624rem #fff , 2000rem 1136rem #fff , 1998rem 1146rem #fff , 473rem 1102rem #fff , 616rem 1738rem #fff , 408rem 630rem #fff , 475rem 1519rem #fff , 239rem 1824rem #fff , 319rem 623rem #fff , 682rem 284rem #fff , 1369rem 1145rem #fff , 805rem 1297rem #fff , 1947rem 1107rem #fff , 341rem 1778rem #fff , 1586rem 1840rem #fff , 1604rem 1913rem #fff , 178rem 1596rem #fff , 1898rem 432rem #fff , 910rem 244rem #fff , 1733rem 1356rem #fff , 993rem 111rem #fff , 1874rem 1515rem #fff , 812rem 1810rem #fff , 973rem 622rem #fff , 1774rem 265rem #fff , 881rem 1635rem #fff , 1469rem 236rem #fff , 734rem 1684rem #fff , 1492rem 763rem #fff , 1804rem 1161rem #fff , 1634rem 1579rem #fff , 1958rem 301rem #fff , 1117rem 1898rem #fff , 744rem 1329rem #fff , 407rem 350rem #fff , 313rem 667rem #fff , 1665rem 1321rem #fff , 229rem 1902rem #fff , 1439rem 962rem #fff , 1948rem 133rem #fff , 832rem 569rem #fff , 420rem 982rem #fff , 1232rem 567rem #fff , 386rem 1196rem #fff , 1121rem 1059rem #fff , 445rem 1168rem #fff , 1864rem 1779rem #fff , 226rem 186rem #fff , 1090rem 201rem #fff , 32rem 1855rem #fff , 767rem 1373rem #fff , 1139rem 421rem #fff , 1094rem 1269rem #fff , 1441rem 505rem #fff , 129rem 1143rem #fff , 1656rem 1730rem #fff , 826rem 1558rem #fff , 1084rem 1948rem #fff , 87rem 1144rem #fff , 1341rem 1015rem #fff , 232rem 1176rem #fff , 1512rem 1038rem #fff , 929rem 692rem #fff , 1621rem 430rem #fff , 1386rem 1072rem #fff , 1223rem 1226rem #fff , 326rem 708rem #fff , 1133rem 1770rem #fff , 1370rem 253rem #fff , 183rem 953rem #fff , 42rem 185rem #fff , 777rem 956rem #fff , 843rem 1484rem #fff , 1206rem 664rem #fff , 806rem 879rem #fff , 1266rem 411rem #fff , 1111rem 1927rem #fff , 441rem 142rem #fff , 108rem 975rem #fff , 231rem 626rem #fff , 1621rem 1074rem #fff , 950rem 1094rem #fff , 432rem 159rem #fff , 1129rem 95rem #fff , 40rem 1919rem #fff , 1847rem 861rem #fff , 1177rem 1965rem #fff , 1512rem 123rem #fff , 227rem 1098rem #fff , 1795rem 1083rem #fff , 633rem 1089rem #fff , 823rem 431rem #fff , 991rem 1097rem #fff , 1492rem 594rem #fff , 448rem 848rem #fff , 1384rem 1769rem #fff , 1706rem 33rem #fff , 42rem 674rem #fff , 459rem 1539rem #fff , 1813rem 4rem #fff , 1504rem 1542rem #fff , 673rem 1395rem #fff , 1090rem 504rem #fff , 1727rem 501rem #fff , 398rem 322rem #fff , 1329rem 1558rem #fff , 1432rem 1214rem #fff , 1832rem 917rem #fff , 16rem 594rem #fff , 860rem 179rem #fff , 1896rem 314rem #fff , 779rem 1582rem #fff , 1757rem 1189rem #fff , 1444rem 1028rem #fff , 562rem 950rem #fff , 421rem 1467rem #fff , 896rem 996rem #fff , 458rem 1777rem #fff , 1941rem 45rem #fff , 395rem 960rem #fff , 1763rem 461rem #fff , 842rem 1100rem #fff , 514rem 93rem #fff , 1530rem 533rem #fff , 1424rem 1766rem #fff , 533rem 1316rem #fff , 1015rem 236rem #fff , 1985rem 1691rem #fff , 1813rem 1907rem #fff , 596rem 193rem #fff , 598rem 425rem #fff , 1045rem 89rem #fff , 108rem 1238rem #fff , 1446rem 1098rem #fff , 29rem 1173rem #fff , 1631rem 840rem #fff , 1204rem 753rem #fff , 1039rem 317rem #fff , 1162rem 489rem #fff , 597rem 572rem #fff , 1078rem 675rem #fff , 190rem 1367rem #fff , 1435rem 233rem #fff , 1535rem 1681rem #fff , 1002rem 403rem #fff , 931rem 1216rem #fff , 734rem 1848rem #fff , 867rem 821rem #fff , 1813rem 1341rem #fff , 586rem 912rem #fff , 680rem 1745rem #fff , 92rem 329rem #fff , 884rem 400rem #fff , 1581rem 1911rem #fff , 1937rem 1142rem #fff , 149rem 1908rem #fff , 1807rem 187rem #fff , 1356rem 1918rem #fff , 78rem 845rem #fff , 58rem 932rem #fff , 1185rem 1201rem #fff , 1672rem 549rem #fff , 654rem 1756rem #fff , 949rem 466rem #fff , 1720rem 1724rem #fff , 1918rem 1938rem #fff , 1704rem 29rem #fff , 1094rem 665rem #fff , 411rem 441rem #fff , 341rem 1305rem #fff , 1083rem 783rem #fff , 492rem 1673rem #fff , 1818rem 1468rem #fff , 1232rem 102rem #fff , 641rem 1936rem #fff , 1232rem 1413rem #fff , 283rem 1659rem #fff , 1297rem 866rem #fff , 579rem 929rem #fff , 544rem 1387rem #fff , 302rem 807rem #fff , 1348rem 1875rem #fff , 1069rem 453rem #fff , 684rem 85rem #fff , 829rem 681rem #fff , 245rem 947rem #fff , 45rem 780rem #fff , 598rem 1180rem #fff , 1474rem 1497rem #fff , 1297rem 851rem #fff , 487rem 1516rem #fff , 462rem 1096rem #fff , 1097rem 564rem #fff , 1750rem 1039rem #fff , 578rem 227rem #fff , 221rem 643rem #fff , 1733rem 1579rem #fff , 638rem 1633rem #fff , 300rem 1803rem #fff , 179rem 1764rem #fff , 1005rem 39rem #fff , 354rem 1012rem #fff , 326rem 1922rem #fff , 992rem 1771rem #fff , 1411rem 1804rem #fff , 1454rem 1503rem #fff , 402rem 514rem #fff , 1116rem 169rem #fff , 1986rem 949rem #fff , 956rem 1465rem #fff , 1439rem 1853rem #fff , 1353rem 1885rem #fff , 1141rem 1438rem #fff , 964rem 802rem #fff , 142rem 607rem #fff , 1689rem 790rem #fff , 304rem 1174rem #fff , 1051rem 827rem #fff , 62rem 453rem #fff , 690rem 1830rem #fff , 1857rem 1149rem #fff , 1652rem 1179rem #fff , 1991rem 1168rem #fff , 123rem 1974rem #fff , 481rem 1364rem #fff , 961rem 1237rem #fff , 166rem 1449rem #fff , 68rem 1819rem #fff , 1814rem 132rem #fff , 254rem 1372rem #fff , 94rem 474rem #fff , 1236rem 1625rem #fff , 40rem 1694rem #fff , 1689rem 508rem #fff , 1740rem 253rem #fff , 241rem 1091rem #fff , 1505rem 697rem #fff , 436rem 1140rem #fff , 1694rem 869rem #fff , 412rem 1843rem #fff , 1993rem 441rem #fff , 490rem 1754rem #fff , 273rem 335rem #fff , 1294rem 966rem #fff , 1953rem 1591rem #fff , 1669rem 1358rem #fff , 950rem 1605rem #fff , 1537rem 1872rem #fff , 387rem 317rem #fff , 457rem 1376rem #fff , 1187rem 1192rem #fff , 317rem 1903rem #fff , 1958rem 62rem #fff , 1456rem 1466rem #fff , 1594rem 1696rem #fff , 1975rem 843rem #fff , 333rem 1691rem #fff , 1678rem 425rem #fff , 1650rem 1217rem #fff , 180rem 1801rem #fff , 1098rem 1272rem #fff , 764rem 1541rem #fff , 1479rem 1935rem #fff , 921rem 453rem #fff , 190rem 1158rem #fff , 1163rem 1492rem #fff , 560rem 1517rem #fff , 707rem 1235rem #fff , 199rem 470rem #fff , 743rem 300rem #fff , 1027rem 63rem #fff , 459rem 1851rem #fff , 569rem 1796rem #fff , 1343rem 1362rem #fff , 1627rem 1974rem #fff , 1574rem 1498rem #fff , 1938rem 754rem #fff , 1171rem 261rem #fff , 378rem 394rem #fff , 1171rem 957rem #fff , 374rem 664rem #fff , 558rem 1281rem #fff , 1583rem 1945rem #fff , 1687rem 752rem #fff , 20rem 256rem #fff , 1060rem 1381rem #fff , 1708rem 724rem #fff , 917rem 1081rem #fff , 549rem 1786rem #fff , 334rem 1128rem #fff , 788rem 906rem #fff , 1777rem 752rem #fff , 1160rem 823rem #fff , 139rem 734rem #fff , 1113rem 1107rem #fff , 862rem 1791rem #fff , 1312rem 848rem #fff , 763rem 1134rem #fff , 1642rem 1309rem #fff , 402rem 507rem #fff , 303rem 1529rem #fff , 67rem 1752rem #fff , 1072rem 1032rem #fff , 1141rem 1042rem #fff , 424rem 1341rem #fff , 219rem 1029rem #fff , 865rem 1509rem #fff , 1919rem 1276rem #fff , 601rem 1660rem #fff , 1358rem 1789rem #fff , 1673rem 715rem #fff , 122rem 1014rem #fff , 1907rem 1124rem #fff , 1190rem 1251rem #fff , 591rem 1123rem #fff , 1724rem 579rem #fff , 1821rem 1030rem #fff , 1576rem 725rem #fff , 1007rem 462rem #fff , 726rem 414rem #fff , 1858rem 677rem #fff , 1275rem 1055rem #fff , 1296rem 687rem #fff , 657rem 1160rem #fff , 1823rem 731rem #fff , 965rem 1927rem #fff , 769rem 1627rem #fff , 351rem 525rem #fff , 786rem 557rem #fff , 655rem 1343rem #fff , 613rem 1293rem #fff , 1799rem 90rem #fff , 1231rem 787rem #fff , 836rem 1569rem #fff , 1087rem 1240rem #fff , 1616rem 949rem #fff , 230rem 359rem #fff , 1420rem 478rem #fff , 428rem 1877rem #fff , 989rem 131rem #fff , 104rem 1519rem #fff , 1124rem 1463rem #fff , 1675rem 1693rem #fff , 1974rem 1129rem #fff , 402rem 330rem #fff , 330rem 599rem #fff , 938rem 1727rem #fff , 1458rem 1562rem #fff , 370rem 1434rem #fff , 1911rem 818rem #fff , 513rem 809rem #fff , 278rem 803rem #fff , 1347rem 1605rem #fff , 364rem 1683rem #fff , 92rem 1012rem #fff , 1380rem 1083rem #fff , 319rem 1860rem #fff , 168rem 1586rem #fff , 820rem 1382rem #fff , 1108rem 840rem #fff , 1867rem 619rem #fff , 1096rem 108rem #fff , 1908rem 256rem #fff , 917rem 600rem #fff , 1102rem 72rem #fff , 1515rem 585rem #fff , 1858rem 1210rem #fff , 1746rem 466rem #fff , 1078rem 490rem #fff , 133rem 395rem #fff , 118rem 1619rem #fff , 458rem 1539rem #fff , 696rem 630rem #fff , 727rem 476rem #fff , 1413rem 1428rem #fff , 1851rem 1453rem #fff , 216rem 1714rem #fff , 329rem 1338rem #fff , 524rem 1944rem #fff , 615rem 434rem #fff , 815rem 252rem #fff , 1118rem 615rem #fff , 965rem 592rem #fff , 1916rem 247rem #fff , 246rem 1924rem #fff , 1349rem 1099rem #fff , 70rem 448rem #fff , 73rem 593rem #fff , 1937rem 1850rem #fff , 398rem 561rem #fff , 971rem 1998rem #fff , 628rem 1271rem #fff , 1541rem 1500rem #fff , 143rem 789rem #fff , 729rem 1029rem #fff , 534rem 1324rem #fff , 1277rem 974rem #fff , 64rem 1944rem #fff , 873rem 1392rem #fff , 1092rem 1759rem #fff , 110rem 1600rem #fff , 653rem 1414rem #fff , 1337rem 1110rem #fff , 1877rem 456rem #fff , 460rem 575rem #fff , 46rem 1403rem #fff , 805rem 83rem #fff , 1069rem 653rem #fff , 107rem 1977rem #fff , 1187rem 35rem #fff , 712rem 1975rem #fff , 1924rem 405rem #fff , 1698rem 65rem #fff , 1508rem 710rem #fff , 628rem 1467rem #fff , 1713rem 1398rem #fff , 533rem 858rem #fff , 900rem 1035rem #fff , 986rem 1419rem #fff , 219rem 1229rem #fff , 591rem 1613rem #fff , 1279rem 1731rem #fff , 1691rem 1862rem #fff , 1911rem 419rem #fff , 1400rem 1186rem #fff , 1570rem 104rem #fff , 1167rem 1319rem #fff , 1066rem 1872rem #fff , 448rem 1547rem #fff , 494rem 29rem #fff , 1304rem 1820rem #fff , 848rem 1862rem #fff , 1544rem 1558rem #fff , 59rem 1201rem #fff , 295rem 887rem #fff , 2000rem 1428rem #fff , 165rem 865rem #fff , 1731rem 1581rem #fff , 1975rem 1358rem #fff , 1293rem 924rem #fff , 742rem 1514rem #fff , 1980rem 879rem #fff , 839rem 1729rem #fff , 986rem 1791rem #fff , 1338rem 892rem #fff , 370rem 1183rem #fff , 887rem 1797rem #fff , 810rem 1016rem #fff , 1826rem 183rem #fff , 300rem 312rem #fff , 1353rem 1707rem #fff , 840rem 1952rem #fff , 1805rem 1928rem #fff , 675rem 633rem #fff , 1rem 1349rem #fff , 241rem 964rem #fff , 1051rem 1838rem #fff , 1232rem 942rem #fff , 918rem 1534rem #fff , 903rem 382rem #fff , 1586rem 1669rem #fff , 772rem 390rem #fff , 702rem 391rem #fff , 146rem 1875rem #fff , 1496rem 748rem #fff , 366rem 1834rem #fff , 1567rem 516rem #fff , 1449rem 405rem #fff , 1983rem 1688rem #fff , 262rem 1359rem #fff , 1411rem 15rem #fff , 505rem 803rem #fff , 1658rem 1728rem #fff , 1244rem 62rem #fff , 1699rem 1432rem #fff , 1254rem 418rem #fff , 814rem 1970rem #fff , 287rem 1645rem #fff , 1180rem 1594rem #fff , 1200rem 95rem #fff , 1459rem 45rem #fff , 1555rem 879rem #fff , 738rem 1605rem #fff , 1451rem 1256rem #fff , 202rem 451rem #fff , 206rem 1180rem #fff , 1162rem 998rem #fff , 1661rem 1023rem #fff , 1732rem 151rem #fff , 542rem 222rem #fff , 241rem 70rem #fff , 417rem 1681rem #fff , 1915rem 24rem #fff , 559rem 282rem #fff , 755rem 580rem #fff , 1291rem 1869rem #fff , 1536rem 672rem #fff , 675rem 838rem #fff , 2rem 1237rem #fff , 1594rem 1696rem #fff , 104rem 1611rem #fff , 1881rem 1466rem #fff , 1578rem 244rem #fff , 462rem 1345rem #fff , 629rem 1910rem #fff , 256rem 306rem #fff , 1517rem 1761rem #fff , 1334rem 1565rem #fff , 1792rem 1112rem #fff , 1114rem 943rem #fff , 357rem 536rem #fff , 293rem 1939rem #fff , 526rem 1054rem #fff , 1585rem 1202rem #fff , 146rem 281rem #fff , 834rem 647rem #fff , 569rem 1698rem #fff , 6rem 1899rem #fff;
+}
+
+#stars2 {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 1210rem 1464rem #fff , 316rem 329rem #fff , 737rem 978rem #fff , 804rem 480rem #fff , 1922rem 1739rem #fff , 1844rem 1377rem #fff , 720rem 1189rem #fff , 410rem 52rem #fff , 1158rem 488rem #fff , 1168rem 1069rem #fff , 630rem 735rem #fff , 530rem 1611rem #fff , 1561rem 978rem #fff , 1774rem 493rem #fff , 417rem 784rem #fff , 388rem 702rem #fff , 1148rem 1793rem #fff , 1251rem 1536rem #fff , 1262rem 947rem #fff , 360rem 914rem #fff , 1274rem 576rem #fff , 345rem 1395rem #fff , 1795rem 234rem #fff , 620rem 1670rem #fff , 767rem 70rem #fff , 1601rem 1801rem #fff , 975rem 1234rem #fff , 169rem 218rem #fff , 136rem 1227rem #fff , 507rem 1651rem #fff , 127rem 208rem #fff , 10rem 1351rem #fff , 1965rem 704rem #fff , 204rem 1650rem #fff , 1383rem 802rem #fff , 1092rem 1569rem #fff , 1620rem 345rem #fff , 293rem 1244rem #fff , 1068rem 1147rem #fff , 1703rem 1170rem #fff , 1577rem 1866rem #fff , 909rem 1233rem #fff , 1297rem 1255rem #fff , 539rem 1343rem #fff , 1803rem 1653rem #fff , 281rem 1965rem #fff , 1010rem 280rem #fff , 944rem 1189rem #fff , 324rem 1943rem #fff , 1560rem 202rem #fff , 258rem 185rem #fff , 1213rem 1628rem #fff , 1997rem 119rem #fff , 702rem 1031rem #fff , 744rem 1892rem #fff , 160rem 1942rem #fff , 214rem 1025rem #fff , 1821rem 1315rem #fff , 381rem 853rem #fff , 1105rem 1238rem #fff , 168rem 1922rem #fff , 1896rem 589rem #fff , 1655rem 1498rem #fff , 1198rem 1396rem #fff , 251rem 379rem #fff , 360rem 1694rem #fff , 1509rem 1608rem #fff , 852rem 1729rem #fff , 159rem 181rem #fff , 1760rem 707rem #fff , 1818rem 1217rem #fff , 33rem 1407rem #fff , 1303rem 196rem #fff , 832rem 1944rem #fff , 1684rem 422rem #fff , 920rem 635rem #fff , 207rem 129rem #fff , 1775rem 1662rem #fff , 1253rem 1461rem #fff , 1660rem 686rem #fff , 1861rem 679rem #fff , 712rem 1837rem #fff , 710rem 931rem #fff , 204rem 830rem #fff , 335rem 1604rem #fff , 389rem 1200rem #fff , 180rem 593rem #fff , 1756rem 1046rem #fff , 200rem 944rem #fff , 1994rem 243rem #fff , 1824rem 437rem #fff , 1203rem 585rem #fff , 313rem 852rem #fff , 171rem 462rem #fff , 748rem 1848rem #fff , 916rem 651rem #fff , 1309rem 967rem #fff , 1233rem 30rem #fff , 1947rem 366rem #fff , 824rem 196rem #fff , 1378rem 902rem #fff , 1651rem 908rem #fff , 1878rem 1428rem #fff , 1927rem 784rem #fff , 969rem 788rem #fff , 1443rem 1200rem #fff , 1537rem 1888rem #fff , 133rem 1874rem #fff , 179rem 564rem #fff , 533rem 1514rem #fff , 1732rem 1618rem #fff , 1444rem 1199rem #fff , 1709rem 1477rem #fff , 114rem 115rem #fff , 1143rem 1988rem #fff , 1637rem 1rem #fff , 715rem 1788rem #fff , 1493rem 1035rem #fff , 1155rem 733rem #fff , 841rem 291rem #fff , 361rem 224rem #fff , 790rem 873rem #fff , 628rem 406rem #fff , 184rem 869rem #fff , 1991rem 1207rem #fff , 131rem 1301rem #fff , 1842rem 1981rem #fff , 281rem 1811rem #fff , 766rem 269rem #fff , 1135rem 453rem #fff , 718rem 1299rem #fff , 385rem 1976rem #fff , 457rem 1344rem #fff , 469rem 978rem #fff , 1741rem 1933rem #fff , 1585rem 1354rem #fff , 644rem 1093rem #fff , 1063rem 743rem #fff , 1439rem 1295rem #fff , 1974rem 1810rem #fff , 3rem 947rem #fff , 982rem 64rem #fff , 265rem 783rem #fff , 221rem 82rem #fff , 58rem 231rem #fff , 1498rem 1715rem #fff , 1249rem 382rem #fff , 639rem 1900rem #fff , 977rem 14rem #fff , 203rem 1307rem #fff , 607rem 1462rem #fff , 1626rem 1115rem #fff , 394rem 1046rem #fff , 203rem 1521rem #fff , 194rem 1951rem #fff , 575rem 1086rem #fff , 18rem 1405rem #fff , 649rem 1377rem #fff , 334rem 1712rem #fff , 481rem 1477rem #fff , 260rem 90rem #fff , 466rem 361rem #fff , 194rem 266rem #fff , 1254rem 459rem #fff , 71rem 316rem #fff , 1440rem 736rem #fff , 841rem 672rem #fff , 1225rem 253rem #fff , 1962rem 1141rem #fff , 1347rem 224rem #fff , 1510rem 316rem #fff , 192rem 173rem #fff , 1320rem 940rem #fff , 1615rem 1254rem #fff , 703rem 40rem #fff , 1684rem 559rem #fff , 1880rem 1613rem #fff , 1287rem 424rem #fff , 464rem 1479rem #fff , 1rem 379rem #fff , 1770rem 275rem #fff , 587rem 8rem #fff , 803rem 1924rem #fff , 238rem 1921rem #fff , 885rem 513rem #fff , 1923rem 52rem #fff , 1251rem 1909rem #fff , 796rem 244rem #fff , 1948rem 1710rem #fff , 992rem 1709rem #fff , 49rem 1717rem #fff , 1610rem 7rem #fff , 1402rem 1561rem #fff , 1899rem 1120rem #fff , 776rem 772rem #fff , 1144rem 1623rem #fff , 1782rem 1794rem #fff , 1981rem 7rem #fff , 958rem 1698rem #fff , 508rem 1865rem #fff;
+  animation: animStar 100s linear infinite;
+}
+
+#stars2:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 1210rem 1464rem #fff , 316rem 329rem #fff , 737rem 978rem #fff , 804rem 480rem #fff , 1922rem 1739rem #fff , 1844rem 1377rem #fff , 720rem 1189rem #fff , 410rem 52rem #fff , 1158rem 488rem #fff , 1168rem 1069rem #fff , 630rem 735rem #fff , 530rem 1611rem #fff , 1561rem 978rem #fff , 1774rem 493rem #fff , 417rem 784rem #fff , 388rem 702rem #fff , 1148rem 1793rem #fff , 1251rem 1536rem #fff , 1262rem 947rem #fff , 360rem 914rem #fff , 1274rem 576rem #fff , 345rem 1395rem #fff , 1795rem 234rem #fff , 620rem 1670rem #fff , 767rem 70rem #fff , 1601rem 1801rem #fff , 975rem 1234rem #fff , 169rem 218rem #fff , 136rem 1227rem #fff , 507rem 1651rem #fff , 127rem 208rem #fff , 10rem 1351rem #fff , 1965rem 704rem #fff , 204rem 1650rem #fff , 1383rem 802rem #fff , 1092rem 1569rem #fff , 1620rem 345rem #fff , 293rem 1244rem #fff , 1068rem 1147rem #fff , 1703rem 1170rem #fff , 1577rem 1866rem #fff , 909rem 1233rem #fff , 1297rem 1255rem #fff , 539rem 1343rem #fff , 1803rem 1653rem #fff , 281rem 1965rem #fff , 1010rem 280rem #fff , 944rem 1189rem #fff , 324rem 1943rem #fff , 1560rem 202rem #fff , 258rem 185rem #fff , 1213rem 1628rem #fff , 1997rem 119rem #fff , 702rem 1031rem #fff , 744rem 1892rem #fff , 160rem 1942rem #fff , 214rem 1025rem #fff , 1821rem 1315rem #fff , 381rem 853rem #fff , 1105rem 1238rem #fff , 168rem 1922rem #fff , 1896rem 589rem #fff , 1655rem 1498rem #fff , 1198rem 1396rem #fff , 251rem 379rem #fff , 360rem 1694rem #fff , 1509rem 1608rem #fff , 852rem 1729rem #fff , 159rem 181rem #fff , 1760rem 707rem #fff , 1818rem 1217rem #fff , 33rem 1407rem #fff , 1303rem 196rem #fff , 832rem 1944rem #fff , 1684rem 422rem #fff , 920rem 635rem #fff , 207rem 129rem #fff , 1775rem 1662rem #fff , 1253rem 1461rem #fff , 1660rem 686rem #fff , 1861rem 679rem #fff , 712rem 1837rem #fff , 710rem 931rem #fff , 204rem 830rem #fff , 335rem 1604rem #fff , 389rem 1200rem #fff , 180rem 593rem #fff , 1756rem 1046rem #fff , 200rem 944rem #fff , 1994rem 243rem #fff , 1824rem 437rem #fff , 1203rem 585rem #fff , 313rem 852rem #fff , 171rem 462rem #fff , 748rem 1848rem #fff , 916rem 651rem #fff , 1309rem 967rem #fff , 1233rem 30rem #fff , 1947rem 366rem #fff , 824rem 196rem #fff , 1378rem 902rem #fff , 1651rem 908rem #fff , 1878rem 1428rem #fff , 1927rem 784rem #fff , 969rem 788rem #fff , 1443rem 1200rem #fff , 1537rem 1888rem #fff , 133rem 1874rem #fff , 179rem 564rem #fff , 533rem 1514rem #fff , 1732rem 1618rem #fff , 1444rem 1199rem #fff , 1709rem 1477rem #fff , 114rem 115rem #fff , 1143rem 1988rem #fff , 1637rem 1rem #fff , 715rem 1788rem #fff , 1493rem 1035rem #fff , 1155rem 733rem #fff , 841rem 291rem #fff , 361rem 224rem #fff , 790rem 873rem #fff , 628rem 406rem #fff , 184rem 869rem #fff , 1991rem 1207rem #fff , 131rem 1301rem #fff , 1842rem 1981rem #fff , 281rem 1811rem #fff , 766rem 269rem #fff , 1135rem 453rem #fff , 718rem 1299rem #fff , 385rem 1976rem #fff , 457rem 1344rem #fff , 469rem 978rem #fff , 1741rem 1933rem #fff , 1585rem 1354rem #fff , 644rem 1093rem #fff , 1063rem 743rem #fff , 1439rem 1295rem #fff , 1974rem 1810rem #fff , 3rem 947rem #fff , 982rem 64rem #fff , 265rem 783rem #fff , 221rem 82rem #fff , 58rem 231rem #fff , 1498rem 1715rem #fff , 1249rem 382rem #fff , 639rem 1900rem #fff , 977rem 14rem #fff , 203rem 1307rem #fff , 607rem 1462rem #fff , 1626rem 1115rem #fff , 394rem 1046rem #fff , 203rem 1521rem #fff , 194rem 1951rem #fff , 575rem 1086rem #fff , 18rem 1405rem #fff , 649rem 1377rem #fff , 334rem 1712rem #fff , 481rem 1477rem #fff , 260rem 90rem #fff , 466rem 361rem #fff , 194rem 266rem #fff , 1254rem 459rem #fff , 71rem 316rem #fff , 1440rem 736rem #fff , 841rem 672rem #fff , 1225rem 253rem #fff , 1962rem 1141rem #fff , 1347rem 224rem #fff , 1510rem 316rem #fff , 192rem 173rem #fff , 1320rem 940rem #fff , 1615rem 1254rem #fff , 703rem 40rem #fff , 1684rem 559rem #fff , 1880rem 1613rem #fff , 1287rem 424rem #fff , 464rem 1479rem #fff , 1rem 379rem #fff , 1770rem 275rem #fff , 587rem 8rem #fff , 803rem 1924rem #fff , 238rem 1921rem #fff , 885rem 513rem #fff , 1923rem 52rem #fff , 1251rem 1909rem #fff , 796rem 244rem #fff , 1948rem 1710rem #fff , 992rem 1709rem #fff , 49rem 1717rem #fff , 1610rem 7rem #fff , 1402rem 1561rem #fff , 1899rem 1120rem #fff , 776rem 772rem #fff , 1144rem 1623rem #fff , 1782rem 1794rem #fff , 1981rem 7rem #fff , 958rem 1698rem #fff , 508rem 1865rem #fff;
+}
+
+#stars3 {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 445rem 959rem #fff , 1568rem 1916rem #fff , 1480rem 931rem #fff , 1750rem 712rem #fff , 1903rem 335rem #fff , 1677rem 664rem #fff , 575rem 1880rem #fff , 249rem 1518rem #fff , 768rem 1040rem #fff , 195rem 296rem #fff , 487rem 1755rem #fff , 659rem 1515rem #fff , 1384rem 1928rem #fff , 1956rem 977rem #fff , 180rem 1676rem #fff , 1587rem 35rem #fff , 1531rem 1176rem #fff , 368rem 1884rem #fff , 1296rem 1212rem #fff , 1041rem 1780rem #fff , 1832rem 833rem #fff , 568rem 963rem #fff , 1976rem 1647rem #fff , 32rem 368rem #fff , 1175rem 1382rem #fff , 1069rem 860rem #fff , 1871rem 456rem #fff , 1891rem 1149rem #fff , 967rem 733rem #fff , 263rem 607rem #fff , 592rem 1639rem #fff , 747rem 1593rem #fff , 339rem 265rem #fff , 124rem 799rem #fff , 1511rem 1594rem #fff , 1161rem 1455rem #fff , 1278rem 1184rem #fff , 963rem 1780rem #fff , 92rem 210rem #fff , 991rem 168rem #fff , 1275rem 168rem #fff , 1011rem 1619rem #fff , 464rem 287rem #fff , 1450rem 540rem #fff , 620rem 56rem #fff , 1703rem 730rem #fff , 1345rem 1633rem #fff , 1144rem 1937rem #fff , 765rem 1954rem #fff , 1619rem 715rem #fff , 967rem 983rem #fff , 975rem 342rem #fff , 809rem 833rem #fff , 661rem 234rem #fff , 1091rem 1621rem #fff , 943rem 637rem #fff , 11rem 1328rem #fff , 1393rem 500rem #fff , 1968rem 1651rem #fff , 292rem 1896rem #fff , 1139rem 1945rem #fff , 179rem 676rem #fff , 962rem 169rem #fff , 514rem 385rem #fff , 917rem 834rem #fff , 1794rem 642rem #fff , 170rem 1553rem #fff , 1764rem 303rem #fff , 1432rem 1544rem #fff , 389rem 494rem #fff , 914rem 1349rem #fff , 918rem 39rem #fff , 1826rem 203rem #fff , 450rem 251rem #fff , 240rem 1875rem #fff , 1721rem 1756rem #fff , 913rem 4rem #fff , 652rem 1594rem #fff , 1734rem 1729rem #fff , 1758rem 1750rem #fff , 428rem 1704rem #fff , 384rem 1897rem #fff , 141rem 460rem #fff , 1443rem 1213rem #fff , 889rem 432rem #fff , 726rem 1586rem #fff , 1288rem 1883rem #fff , 1437rem 928rem #fff , 1819rem 766rem #fff , 259rem 1668rem #fff , 854rem 1303rem #fff , 1214rem 614rem #fff , 880rem 327rem #fff , 1996rem 104rem #fff , 1636rem 1947rem #fff , 1131rem 1661rem #fff , 915rem 86rem #fff , 28rem 1315rem #fff , 60rem 1575rem #fff , 332rem 837rem #fff;
+  animation: animStar 150s linear infinite;
+}
+
+#stars3:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 445rem 959rem #fff , 1568rem 1916rem #fff , 1480rem 931rem #fff , 1750rem 712rem #fff , 1903rem 335rem #fff , 1677rem 664rem #fff , 575rem 1880rem #fff , 249rem 1518rem #fff , 768rem 1040rem #fff , 195rem 296rem #fff , 487rem 1755rem #fff , 659rem 1515rem #fff , 1384rem 1928rem #fff , 1956rem 977rem #fff , 180rem 1676rem #fff , 1587rem 35rem #fff , 1531rem 1176rem #fff , 368rem 1884rem #fff , 1296rem 1212rem #fff , 1041rem 1780rem #fff , 1832rem 833rem #fff , 568rem 963rem #fff , 1976rem 1647rem #fff , 32rem 368rem #fff , 1175rem 1382rem #fff , 1069rem 860rem #fff , 1871rem 456rem #fff , 1891rem 1149rem #fff , 967rem 733rem #fff , 263rem 607rem #fff , 592rem 1639rem #fff , 747rem 1593rem #fff , 339rem 265rem #fff , 124rem 799rem #fff , 1511rem 1594rem #fff , 1161rem 1455rem #fff , 1278rem 1184rem #fff , 963rem 1780rem #fff , 92rem 210rem #fff , 991rem 168rem #fff , 1275rem 168rem #fff , 1011rem 1619rem #fff , 464rem 287rem #fff , 1450rem 540rem #fff , 620rem 56rem #fff , 1703rem 730rem #fff , 1345rem 1633rem #fff , 1144rem 1937rem #fff , 765rem 1954rem #fff , 1619rem 715rem #fff , 967rem 983rem #fff , 975rem 342rem #fff , 809rem 833rem #fff , 661rem 234rem #fff , 1091rem 1621rem #fff , 943rem 637rem #fff , 11rem 1328rem #fff , 1393rem 500rem #fff , 1968rem 1651rem #fff , 292rem 1896rem #fff , 1139rem 1945rem #fff , 179rem 676rem #fff , 962rem 169rem #fff , 514rem 385rem #fff , 917rem 834rem #fff , 1794rem 642rem #fff , 170rem 1553rem #fff , 1764rem 303rem #fff , 1432rem 1544rem #fff , 389rem 494rem #fff , 914rem 1349rem #fff , 918rem 39rem #fff , 1826rem 203rem #fff , 450rem 251rem #fff , 240rem 1875rem #fff , 1721rem 1756rem #fff , 913rem 4rem #fff , 652rem 1594rem #fff , 1734rem 1729rem #fff , 1758rem 1750rem #fff , 428rem 1704rem #fff , 384rem 1897rem #fff , 141rem 460rem #fff , 1443rem 1213rem #fff , 889rem 432rem #fff , 726rem 1586rem #fff , 1288rem 1883rem #fff , 1437rem 928rem #fff , 1819rem 766rem #fff , 259rem 1668rem #fff , 854rem 1303rem #fff , 1214rem 614rem #fff , 880rem 327rem #fff , 1996rem 104rem #fff , 1636rem 1947rem #fff , 1131rem 1661rem #fff , 915rem 86rem #fff , 28rem 1315rem #fff , 60rem 1575rem #fff , 332rem 837rem #fff;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+@keyframes animSerc {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bg {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  min-width: 100%;
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */
