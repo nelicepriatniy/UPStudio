@@ -1359,11 +1359,21 @@ footer {
 }
 
 @keyframes animStar {
-    from {
+    0% {
         transform: translateY(0px);
+        opacity: 0;
     }
 
-    to {
+    1% {
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
         transform: translateY(-2000px);
     }
 }
