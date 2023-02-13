@@ -194,31 +194,39 @@ header {
     color: #12130F;
     text-align: start;
     padding-left: 46rem;
-    &::after {
-        content: '';
-        display: block;
-        height: 44rem;
-        aspect-ratio: 1/1;
+    & .pipi__bg {
         position: absolute;
         right: 0;
-        outline: 3rem solid white;
-        outline-offset: -3rem;
-        border-radius: 50%;
         top: 0;
+        height: 100%;
+        animation: animSerc 2s ease-in-out infinite;
+        animation-delay: 1s;
     }
-    &::before {
-        content: '';
-        display: block;
-        height: 14rem;
-        aspect-ratio: 1/1;
-        position: absolute;
-        right: 0;
-        background: #FF964C;
-        border-radius: 50%;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 3;
-    }
+    // &::after {
+    //     content: '';
+    //     display: block;
+    //     height: 44rem;
+    //     aspect-ratio: 1/1;
+    //     position: absolute;
+    //     right: 0;
+    //     outline: 3rem solid white;
+    //     outline-offset: -3rem;
+    //     border-radius: 50%;
+    //     top: 0;
+    // }
+    // &::before {
+    //     content: '';
+    //     display: block;
+    //     height: 14rem;
+    //     aspect-ratio: 1/1;
+    //     position: absolute;
+    //     right: 0;
+    //     background: #FF964C;
+    //     border-radius: 50%;
+    //     top: 50%;
+    //     transform: translateY(-50%);
+    //     z-index: 3;
+    // }
 }
 
 .main__descriprion {
@@ -1138,6 +1146,8 @@ header {
 .zayavka__img {
     height: 332rem;
     aspect-ratio: 1/1;
+    animation: animSerc 4s ease-in-out infinite;
+    animation-delay: .8s;
 }
 
 .zayavka__heading {
