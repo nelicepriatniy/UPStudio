@@ -2,7 +2,10 @@ const portfolioSwiper = new Swiper('.portfolio-swiper', {
     speed: 400,
     slidesPerView: 1,
     loop: true,
-
+    navigation: {
+        nextEl: '.portfolio-swiper-next',
+        prevEl: '.portfolio-swiper-prev',
+    },
 });
 
 const dealsSwiper = new Swiper('.deals-swiper', {
