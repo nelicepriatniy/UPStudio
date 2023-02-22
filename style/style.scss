@@ -1925,7 +1925,7 @@ header {
         z-index: 1;
     }
 
-    header {
+    .header {
         justify-content: space-between;
         overflow: visible;
     }
@@ -2276,7 +2276,10 @@ header {
         height: 380rem;
         padding: 29rem 11rem;
         &:last-child {
-            margin-right: 0;
+            margin-right: 20rem;
+        }
+        &:first-child {
+            margin-left: 20rem;
         }
     }
 
@@ -2352,6 +2355,7 @@ header {
         width: 340rem;
         height: 47.5rem;
         top: 33rem;
+        left: -10rem;
     }
 
     .calculator-wraper__right__description {
@@ -2371,6 +2375,10 @@ header {
         width: 112rem;
         height: 29.25rem;
 
+    }
+
+    .second-quest {
+        font-size: 15rem;
     }
 
     .calculator-wraper__right__button {
@@ -2428,8 +2436,8 @@ header {
     }
 
     .scroll-item__wraper.flex-wrap .second-quest {
-        line-height: 15rem;
-        padding: 5rem 13rem;
+        line-height: 10rem;
+        padding: 5rem 10rem;
 
     }
 
@@ -2513,12 +2521,15 @@ header {
 
     .rule__top__heading {
         width: 234rem;
-
+        margin-left: 20rem;
     }
 
     .rule {
-        margin-bottom: 128rem;
-
+        &.container {
+            width: 100vw;
+            margin: 0;
+            margin-bottom: 128rem;
+        }
     }
 
     .etaps {
