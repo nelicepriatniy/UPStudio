@@ -13,19 +13,37 @@
 <body>
     <!-- <img src="./media/check.png" alt="" class="check"> -->
 
-    <header class="container">
-        <img src="./media/header/logo.svg" alt="" class="logo">
-        <ul class="header-list">
-            <li class="header-list__item">О нас</li>
-            <li class="header-list__item">Портфолио</li>
-            <li class="header-list__item">Услуги</li>
-            <li class="header-list__item">Контакты</li>
-        </ul>
-        <div class="header-contacts">
-            <div class="header-contacts__phone">+7 (911) 777-77-77</div>
-            <div class="header-contacts__email">support@upstudio.team</div>
+    <header>
+        <div class="header container">
+            <img src="./media/header/logo.svg" alt="" class="logo">
+            <ul class="header-list desk lap">
+                <li class="header-list__item scrollBtn" data-b=".main">О нас</li>
+                <li class="header-list__item scrollBtn" data-b=".portfolio">Портфолио</li>
+                <li class="header-list__item scrollBtn" data-b=".deals">Услуги</li>
+                <li class="header-list__item scrollBtn" data-b=".zayavka">Контакты</li>
+            </ul>
+            <div class="header-contacts desk lap">
+                <div class="header-contacts__phone">+7 (911) 777-77-77</div>
+                <div class="header-contacts__email">support@upstudio.team</div>
+            </div>
+            <button class="header-button desk lap scrollBtn" data-b=".zayavka">Оставить заявку<img src="./media/header/button.svg" alt=""  class="header-button__bg"></button>
+            <div class="mobile-menu-button mob">
+                <span></span>
+            </div>
+            <div class="mobile-menu mob">
+                <ul class="mobile-menu__list">
+                    <li class="header-list__item scrollBtn" data-b=".main">О нас</li>
+                    <li class="header-list__item scrollBtn" data-b=".portfolio">Портфолио</li>
+                    <li class="header-list__item scrollBtn" data-b=".deals">Услуги</li>
+                    <li class="header-list__item scrollBtn" data-b=".zayavka">Контакты</li>
+                </ul>
+                <div class="header-contacts">
+                    <div class="header-contacts__phone">+7 (911) 777-77-77</div>
+                    <div class="header-contacts__email">support@upstudio.team</div>
+                </div>
+                <button class="header-button">Оставить заявку<img src="./media/header/button.svg" alt=""  class="header-button__bg"></button>
+            </div> 
         </div>
-        <button class="header-button">Оставить заявку<img src="./media/header/button.svg" alt=""  class="header-button__bg"></button>
     </header>
 
     <main>
@@ -45,34 +63,38 @@
                         вам больше не придется искать десятки исполнителей</div>
                 </li>
             </ul>
-            <button class="main__button pipi-button">Запишись на бесплатный аудит <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></button>
+            <button class="main__button scrollBtn pipi-button" data-b=".zayavka">Запишись на бесплатный аудит <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></button>
             <p class="main__descriprion">UP Studio – всероссийская команда UX/UI дизайнеров и веб-разработчиков</p>
             <img src="./media/topBlock/sercl.svg" alt="" class="main__bg">
         </div>
         <div class="pluss container">
             <div class="pluss__wraper">
-                <div class="pluss__item">
-                    <div class="plus-wraper">
-                        <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img">
-                        <p class="pluss__item__text">Освобождаем ваше время</p>
+                <div class="pluss__wraper__block">
+                    <div class="pluss__item">
+                        <div class="plus-wraper">
+                            <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img">
+                            <p class="pluss__item__text">Освобождаем ваше время</p>
+                        </div>
+                    </div>
+                    <div class="pluss__item moblast">
+                        <div class="plus-wraper">
+                            <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img">
+                            <p class="pluss__item__text">Освобождаем ваше время</p>
+                        </div>
                     </div>
                 </div>
-                <div class="pluss__item">
-                    <div class="plus-wraper">
-                        <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img">
-                        <p class="pluss__item__text">Освобождаем ваше время</p>
+                <div class="pluss__wraper__block">
+                    <div class="pluss__item">
+                        <div class="plus-wraper">
+                            <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img sec">
+                            <p class="pluss__item__text">Освобождаем ваше время</p>
+                        </div>
                     </div>
-                </div>
-                <div class="pluss__item">
-                    <div class="plus-wraper">
-                        <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img">
-                        <p class="pluss__item__text">Освобождаем ваше время</p>
-                    </div>
-                </div>
-                <div class="pluss__item">
-                    <div class="plus-wraper">
-                        <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img">
-                        <p class="pluss__item__text">Освобождаем ваше время</p>
+                    <div class="pluss__item last">
+                        <div class="plus-wraper">
+                            <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img sec">
+                            <p class="pluss__item__text">Освобождаем ваше время</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -86,7 +108,7 @@
         <div class="portfolio">
             <div class="container portfolio-wraper">
                 <h3 class="portfolio__heading">С нами уже <span class="green-text">150</span> бизнесов вышли на новый уровень!</h3>
-                <button class="portfolio__button change"><div class="button-change"><p class="mark">Маркетинг</p><p class="syte">Сайты</p></div></button>
+                <button class="portfolio__button change lab desk"><div class="button-change"><p class="mark">Маркетинг</p><p class="syte">Сайты</p></div></button>
             </div>
             <div class="swiper portfolio-swiper">
                 <div class="swiper-wrapper">
@@ -102,7 +124,7 @@
                             <img src="./media/portfolio/portfolioImg.png" alt="" class="slide-img">
                             
                         </div>
-                        <div class="slide-button">Перейти</div>
+                        <a href="#" class="slide-button">Перейти</a>
                     </div>
                   </div>
                   <div class="swiper-slide portfolio-slide">
@@ -138,9 +160,12 @@
 
                 </div>
             </div>
-            <div class="container portfolie-swiper-buttons">
+            <div class="container portfolie-swiper-buttons desk mob">
                 <button class="portfolio-swiper-prev"><img src="./media/portfolio/prew.svg" alt=""></button>
                 <button class="portfolio-swiper-next"><img src="./media/portfolio/next.svg" alt=""></button>
+            </div>
+            <div class="mob mob-port-button">
+                <button class="portfolio__button mon-but change"><div class="button-change"><p class="mark">Маркетинг</p><p class="syte">Сайты</p></div></button>
             </div>
         </div>
         <div class="deals">
@@ -162,7 +187,7 @@
                                 <li class="deals-slide__list__item">Adobe illustrator</li>
                                 <li class="deals-slide__list__item">Wordpress/Tilda</li>
                             </ul>
-                            <div class="deals-slide__button pipi-button">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
                         </div>
                     </div>
                   </div>
@@ -178,7 +203,7 @@
                                 <li class="deals-slide__list__item">Adobe illustrator</li>
                                 <li class="deals-slide__list__item">Wordpress/Tilda</li>
                             </ul>
-                            <div class="deals-slide__button pipi-button">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
                         </div>
                     </div>
                   </div>
@@ -194,7 +219,7 @@
                                 <li class="deals-slide__list__item">Adobe illustrator</li>
                                 <li class="deals-slide__list__item">Wordpress/Tilda</li>
                             </ul>
-                            <div class="deals-slide__button pipi-button">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
                         </div>
                     </div>
                   </div>
@@ -210,7 +235,7 @@
                                 <li class="deals-slide__list__item">Adobe illustrator</li>
                                 <li class="deals-slide__list__item">Wordpress/Tilda</li>
                             </ul>
-                            <div class="deals-slide__button pipi-button">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
                         </div>
                     </div>
                   </div>
@@ -226,7 +251,7 @@
                                 <li class="deals-slide__list__item">Adobe illustrator</li>
                                 <li class="deals-slide__list__item">Wordpress/Tilda</li>
                             </ul>
-                            <div class="deals-slide__button pipi-button">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
                         </div>
                     </div>
                   </div>
@@ -242,7 +267,7 @@
                                 <li class="deals-slide__list__item">Adobe illustrator</li>
                                 <li class="deals-slide__list__item">Wordpress/Tilda</li>
                             </ul>
-                            <div class="deals-slide__button pipi-button">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
                         </div>
                     </div>
                   </div>
@@ -250,7 +275,7 @@
                 </div>
             </div>
 
-            <div class="container buttons-wraper">
+            <div class="container lap desk buttons-wraper">
                 <button class="button-prev not-active"><img src="./media/deals/prevBtn.svg" alt=""></button>
                 <button class="button-next"><img src="./media/deals/nextBtn.svg" alt=""></button>
             </div>
@@ -259,13 +284,13 @@
             <div class="opredelit-wraper container">
                 <h3 class="opredelit__heading">Не можете определиться?</h3>
                 <p class="opredelit__description">Ответьте на несколько вопросов и мы сделаем вам идндивидуальное предложение</p>
-                <button class="opredelit__button">Ответить</button>
+                <button class="opredelit__button scrollBtn" data-b=".calculator">Ответить</button>
             </div>
         </div>
         <div class="rule container">
             <div class="rule__top">
                 <h3 class="rule__top__heading">Наше правило – ЗБС</h3>
-                <button class="rule__top__button">Оставить заявку <img src="./media/rule/buttonBg.svg" alt=""></button>
+                <button class="rule__top__button desk scrollBtn" data-b=".zayavka">Оставить заявку <img src="./media/rule/buttonBg.svg" alt=""></button>
             </div>
             <div class="rule__wraper">
                 <div class="rule__wraper__item">
@@ -309,29 +334,38 @@
             <div class="calculator-wraper">
                 <div class="calculator-wraper__right">
                     <p class="calculator-wraper__right__heading">Примерная стоимость</p>
-                    <div class="calculator-wraper__right__price"> <p><span>от</span> 0₽</p></div>
-                    <p class="calculator-wraper__right__description">Точную стоимость сможем назвать после обсуждения </p>
-                    <div class="button-color-border">
-                        <div class="button-border"></div>
-                        <button class="calculator-wraper__right__button">Cвязаться</button>
+                    <div class="calculator-wraper__right__price"> <p><span>от</span> <span class="priseinner"> 15 000</span>₽</p></div>
+                    <div class="mobflex">
+                        <p class="calculator-wraper__right__description">Точную стоимость сможем назвать после обсуждения </p>
+                        <div class="button-color-border">
+                            <div class="button-border"></div>
+                            <button class="calculator-wraper__right__button scrollBtn" data-b=".zayavka">Cвязаться</button>
+                        </div>
                     </div>
                 </div>
                 <div class="calculator-wraper__left">
                     <div class="calculator-wraper__left__scroll">
                         <div class="calculator-wraper__left__scroll__item active-quiz-slide">
                             <p class="scroll-heading">Какое направление вас интересует?</p>
-                            <div class="scroll-item__wraper">
+                            <div class="scroll-item__wraper lap-scrolling">
                                 <label for="quest1_a1" class="answer radio-label active syteAdd q1 ">
-                                    <p class="label-name">Создание сайта</p>
-                                    <img src="./media/quiz/syte.svg" alt="" class="label-bg">
+                                    <p class="label-name">Создание
+                                        сайта</p>
+                                    <img src="./media/quiz/1.png" alt="" class="label-bg">
                                 </label>
                                 <label for="quest1_a2" class="answer radio-label webAdd q1 ">
-                                    <p class="label-name">Создание сайта</p>
-                                    <img src="./media/quiz/web.svg" alt="" class="label-bg">
+                                    <p class="label-name">Веб-
+                                        приложение</p>
+                                    <img src="./media/quiz/2.png" alt="" class="label-bg">
                                 </label>
                                 <label for="quest1_a3" class="answer radio-label markAdd q1 ">
-                                    <p class="label-name">Создание сайта</p>
-                                    <img src="./media/quiz/mark.svg" alt="" class="label-bg">
+                                    <p class="label-name">Маркетинг</p>
+                                    <img src="./media/quiz/3.png" alt="" class="label-bg">
+                                </label>
+                                <label for="quest1_a4" class="answer radio-label placeAdd q1 ">
+                                    <p class="label-name">Маркет-
+                                        плэйсы</p>
+                                    <img src="./media/quiz/4.png" alt="" class="label-bg">
                                 </label>
                             </div>
                         </div>
@@ -358,7 +392,7 @@
                             </div>
                             <div class="mob-questions second-quests">
                                 <div class="calculator-wraper__left__scroll__item sec">
-                                    <p class="scroll-heading">Опишите тематику сайта</p>
+                                    <p class="scroll-heading">Опишите тематику Веб приложения</p>
                                     <div class="scroll-item__wraper">
                                         <textarea type="text" class="textIn quiz-textarea" data-for=".about" placeholder="Например: Сайт для привлечения новых клиентов.  Ниша - производство косметики"></textarea>
                                     </div>
@@ -375,6 +409,19 @@
                             </div>
                         </div>
                         <div class="webSec secquests">
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Какой сайт вас интересует?</p>
+                                    <div class="scroll-item__wraper flex-wrap">
+                                        <label for="withSyte1" class="label-two second-quest radio-label active sq2">Лендинг</label>
+                                        <label for="withSyte2" class="label-two second-quest radio-label sq2">ВИЗИТКА</label>
+                                        <label for="withSyte3" class="label-two second-quest radio-label sq2">МАГАЗИН</label>
+                                        <label for="withSyte4" class="label-two second-quest radio-label sq2">Одностраничный</label>
+                                        <label for="withSyte5" class="label-two second-quest radio-label sq2">КОрпоративный</label>
+        
+                                    </div>
+                                </div>
+                            </div>
                             <div class="mob-questions second-quests webSec">
                                 <div class="calculator-wraper__left__scroll__item sec">
                                     <p class="scroll-heading">У вас есть дизайн макет?</p>
@@ -397,9 +444,76 @@
                             </div>
                             <div class="mob-questions second-quests webSec">
                                 <div class="calculator-wraper__left__scroll__item sec">
-                                    <p class="scroll-heading">Опишите тематику веб-приложения</p>
+                                    <p class="scroll-heading">Опишите тематику сайта</p>
                                     <div class="scroll-item__wraper">
                                         <textarea type="text" class="textIn quiz-textarea" data-for=".about" placeholder="Например: Сайт для привлечения новых клиентов.  Ниша - производство косметики"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="marketting secquests">
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Опишите ваш проект</p>
+                                    <div class="scroll-item__wraper">
+                                        <textarea type="text" class="textIn quiz-textarea" data-for=".about" placeholder="Например: Сайт для привлечения новых клиентов.  Ниша - производство косметики"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="marketplace secquests">
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Опишите ваш проект</p>
+                                    <div class="scroll-item__wraper">
+                                        <textarea type="text" class="textIn quiz-textarea" data-for=".about" placeholder="Например: Сайт для привлечения новых клиентов.  Ниша - производство косметики"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Вы уже зарегистрированы на МП?</p>
+                                    <div class="scroll-item__wraper">
+                                        <label for="marketpalce1" class="label-two second-quest radio-label active q2">да</label>
+                                        <label for="marketpalce2" class="label-two second-quest radio-label q2">нет</label>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Развитие каких МП вас интересует?</p>
+                                    <div class="scroll-item__wraper flex-wrap">
+                                        <label for="withSyte1" class="label-two second-quest radio-label  active sq4">Wildberries </label>
+                                        <label for="withSyte2" class="label-two second-quest radio-label sq4">Ozon</label>
+                                        <label for="withSyte3" class="label-two second-quest radio-label sq4">Lamoda </label>
+                                        <label for="withSyte4" class="label-two second-quest radio-label sq4">Яндекс.Маркет</label>
+                                        <label for="withSyte5" class="label-two second-quest radio-label sq4">AliExpress </label>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Сколько позиций товаров планируете продавать на МП?</p>
+                                    <div class="scroll-item__wraper flex-wrap">
+                                        <input type="number" data-for=".marknum" class="textIn inp numin" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">К каким оборотам хотите выйти через 3-5 месяцев работы?</p>
+                                    <div class="scroll-item__wraper">
+                                        <textarea type="text" class="textIn quiz-textarea" data-for=".oboroty" placeholder=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Дополнительная информация, которую нам важно знать </p>
+                                    <div class="scroll-item__wraper">
+                                        <textarea type="text" class="textIn quiz-textarea" data-for=".dopinfo" placeholder=""></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -430,6 +544,7 @@
                         <input type="radio" name="which" id="quest1_a1" checked="checked" value="создание сайта">
                         <input type="radio" name="which" id="quest1_a2" value="Веб приложение">
                         <input type="radio" name="which" id="quest1_a3" value="Маркетинг">
+                        <input type="radio" name="which" id="quest1_a4" value="Маркетплейсы">
                         <div class="mob-form">
                             <input type="radio" name="design" id="design_a1" checked="checked" value="дизайн не нужен">
                             <input type="radio" name="design" id="design_a2" value="дизайн нужен">
@@ -441,6 +556,25 @@
                             <input type="text" class="textoThis name" id="namein" name="FIO">
                             <input type="text" class="textoThis phone" id="phonein" name="phone">
                         </div>
+                        <div class="web-form">
+                            <input id="withSyte1" type="radio" name="withSyte" checked="checked" value="Лендинг">
+                            <input id="withSyte2" type="radio" name="withSyte" value="ВИЗИТКА">
+                            <input id="withSyte3" type="radio" name="withSyte" value="МАГАЗИН">
+                            <input id="withSyte4" type="radio" name="withSyte" value="Одностраничный">
+                            <input id="withSyte5" type="radio" name="withSyte" value="КОрпоративный">
+                        </div>
+                        <div class="mark-form">
+                            <input id="marketpalce1" type="radio" name="marketreg" checked="checked" value="зарегистрирован на мп">
+                            <input id="marketpalce2" type="radio" name="marketreg" value="не зарегистрирован на мп">
+                            <input id="marketpalcewith1" type="checkbox" name="marketwich" checked="checked" value="Wildberries ">
+                            <input id="marketpalcewith2" type="checkbox" name="marketwich" value="Ozon">
+                            <input id="marketpalcewith3" type="checkbox" name="marketwich" value="Lamoda  ">
+                            <input id="marketpalcewith4" type="checkbox" name="marketwich" value="Яндекс.Маркет">
+                            <input id="marketpalcewith5" type="checkbox" name="marketwich" value="AliExpress ">
+                            <input type="number" class="textoThis marknum" id="marknum" name="marknum">
+                            <input type="text" class="textoThis oboroty" id="oboroty" name="oboroty">
+                            <input type="text" class="textoThis dopinfo" id="dopinfo" name="dopinfo">
+                        </div>
                         <button type="submit" id="subbtn"></button>
                     </form>
                 </div>
@@ -450,7 +584,9 @@
             <h3 class="etaps__heading">Этапы работы</h3>
             <p class="etaps__desc">проще просто не бывает</p> 
             <div class="etaps__wraper">
-                <img src="./media/etaps/main.svg" alt="" class="etaps__wraper__bg">
+                <img src="./media/etaps/main.svg" alt="" class="etaps__wraper__bg desk">
+                <img src="./media/etaps/mainLap.svg" alt="" class="etaps__wraper__bg lab">
+                <img src="./media/etaps/mainmob.png" alt="" class="etaps__wraper__bg mob">
             </div>
         </div>
         <div class="zayavka container">
@@ -469,25 +605,27 @@
         </div>
     </main>
 
-    <footer class="container">
-        <img src="./media/header/logo.svg" alt="" class="footer__logo">
-        <div class="footer__menu">
-            <ul class="footer__menu__list">
-                <li>Главная</li>
-                <li>Партнеры</li>
-                <li>Портфолио</li>
-                <li>Услуги</li>
-                <li>Команда</li>
-                <li>Этапы</li>
-            </ul>
-            <div class="footer__menu__btm">
-                <a href="" class="footer__menu__btm__polityc">Политика конфиденциальности</a>
-                <p class="footer__menu__btm__copyryting">Copyright © 2020-2023, UpStudio</p>
+    <footer>
+        <div class="footer container">
+            <img src="./media/header/logo.svg" alt="" class="footer__logo">
+            <div class="footer__menu">
+                <ul class="footer__menu__list desk lap">
+                    <li class="scrollBtn" data-b=".main">О нас</li>
+                    <li class="desk scrollBtn" data-b=".partners">Партнеры</li>
+                    <li class="scrollBtn" data-b=".portfolio">Портфолио</li>
+                    <li class="scrollBtn" data-b=".deals">Услуги</li>
+                    <li class="desk scrollBtn" data-b="">Команда</li>
+                    <li class="scrollBtn" data-b=".etaps">Этапы</li>
+                </ul>
+                <div class="footer__menu__btm">
+                    <a href="" class="footer__menu__btm__polityc">Политика конфиденциальности</a>
+                    <p class="footer__menu__btm__copyryting">Copyright © 2020-2023, UpStudio</p>
+                </div>
             </div>
-        </div>
-        <div class="footer__contacts">
-            <p class="footer__contacts__phone">+7 (911) 777-77-77</p>
-            <p class="footer__contacts__email">support@upstudio.team</p>
+            <div class="footer__contacts">
+                <p class="footer__contacts__phone">+7 (911) 777-77-77</p>
+                <p class="footer__contacts__email">support@upstudio.team</p>
+            </div>
         </div>
     </footer>
 
