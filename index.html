@@ -5,563 +5,636 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perflёr</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
+    <!-- <img src="./media/check.png" alt="" class="check"> -->
+
     <header>
-        <div class="closePopups blockClose"></div>
-        <div class="container">
-            <div class=" mob mob-menu">
-                <img src="./media/logo.png" alt="" class="mob-menu__logo">
-                <div class="lap-contacts">
-                    <p class="header__contacts__phone mob-phone lap"><img src="./media/phoneIcon.svg" alt=""
-                            class="phoneIcon">+7
-                        (800)
-                        222-80-18</p>
-                    <div class="lap-button-header closePopups">
-                        <div class="but-mob"></div>
-                    </div>
-                </div>
+        <div class="header container">
+            <img src="./media/header/logo.svg" alt="" class="logo">
+            <ul class="header-list desk lap">
+                <li class="header-list__item scrollBtn" data-b=".main">О нас</li>
+                <li class="header-list__item scrollBtn" data-b=".portfolio">Портфолио</li>
+                <li class="header-list__item scrollBtn" data-b=".deals">Услуги</li>
+                <li class="header-list__item scrollBtn" data-b=".zayavka">Контакты</li>
+            </ul>
+            <div class="header-contacts desk lap">
+                <div class="header-contacts__phone">+7 (911) 777-77-77</div>
+                <div class="header-contacts__email">support@upstudio.team</div>
             </div>
-            <div class="wraper-for-mob-menu popups">
-                <img src="./media/logo.png" alt="" class="header__logo">
-                <ul class="header__menu">
-                    <li class="header__menu__item active closePopups"> <a href="./#main">Главная</a> </li>
-                    <li class="header__menu__item closePopups"> <a href="./#history">История</a></li>
-                    <li class="header__menu__item closePopups"> <a href="./#products">Продукция</a></li>
-                    <li class="header__menu__item closePopups"> <a href="./#professions">Профессионалам</a></li>
-                    <li class="header__menu__item closePopups"> <a href="./#contacts">Контакты</a></li>
+            <button class="header-button desk lap scrollBtn" data-b=".zayavka">Оставить заявку<img src="./media/header/button.svg" alt=""  class="header-button__bg"></button>
+            <div class="mobile-menu-button mob">
+                <span></span>
+            </div>
+            <div class="mobile-menu mob">
+                <ul class="mobile-menu__list">
+                    <li class="header-list__item scrollBtn" data-b=".main">О нас</li>
+                    <li class="header-list__item scrollBtn" data-b=".portfolio">Портфолио</li>
+                    <li class="header-list__item scrollBtn" data-b=".deals">Услуги</li>
+                    <li class="header-list__item scrollBtn" data-b=".zayavka">Контакты</li>
                 </ul>
-                <div class="header__contacts">
-                    <p class="header__contacts__phone"><img src="./media/phoneIcon.svg" alt="" class="phoneIcon">+7
-                        (800)
-                        222-80-18</p>
-                    <button class="header__contacts__button">ПЕРЕЗВОНИТЕ МНЕ</button>
+                <div class="header-contacts">
+                    <div class="header-contacts__phone">+7 (911) 777-77-77</div>
+                    <div class="header-contacts__email">support@upstudio.team</div>
                 </div>
-            </div>
+                <button class="header-button">Оставить заявку<img src="./media/header/button.svg" alt=""  class="header-button__bg"></button>
+            </div> 
         </div>
     </header>
-    <div class="swiper sliderOp">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide first anim-slie" data-hash="main">
-                <div class="swiper first__slider anim-item">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide first__slider__first">
-                            <img src="./media/bg1.svg" alt="" class="first__background desk">
-                            <img src="./media/bglap1.png" alt="" class="first__background lap ">
-                            <img src="./media/1slide/bgmob.png" alt="" class="first__background  mob">
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="first__slider__buttons container anim-item">
-                    <div class="left__content">
-                        <div class="prewB"><img src="./media/prewB.svg" alt=""></div>
-                        <div class="left__content__num">
-                            <div class="numberSlide">
-                                <p class="numOfPagg">0 <span class="some">1</span></p>
-                                <p>/</p>
-                                <p class="numAll">02</p>
-                            </div>
-                            <div class="pagg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="nextB"><img src="./media/nextB.svg" alt=""></div>
-                </div> -->
-            </div>
-            <div class="swiper-slide second anim-slie" data-hash="history">
-                <div class="container cent desk anim-item">
-                    <div class="second__left">
-                        <p class="second__left__text ">
-                            <span class="italic">Профессиональная</span> <br class="lap mob">
-                            косметика для волос
-                            <span class="blue"><img src="./media/textlogo.svg" alt="" class="blueLogo"></span>
-                        </p>
-                        <a href="./history.html" class="blue__button">ПОДРОБНЕЕ
-                                <div class="button__arrow">
-                                    <img src="./media/buttonArrow.svg" alt="">
-                                </div>
-                        </a>
-                    </div>
-                    <div class="second__right">
-                        <div class="second__right__item">
-                            <img src="./media/2slide/1.svg" alt="" class="second__item__img">
-                            <h3 class="second__item__title"><span class="blue">137 000 000</span> руб.</h3>
-                            <p class="second__item__text">Вложено в разработку уникальных формул продукции</p>
-                        </div>
-                        <div class="second__right__item">
-                            <img src="./media/2slide/1.svg" alt="" class="second__item__img">
-                            <h3 class="second__item__title"><span class="blue">137 000 000</span> руб.</h3>
-                            <p class="second__item__text">Вложено в разработку уникальных формул продукции</p>
-                        </div>
-                        <div class="second__right__item">
-                            <img src="./media/2slide/1.svg" alt="" class="second__item__img">
-                            <h3 class="second__item__title"><span class="blue">137 000 000</span> руб.</h3>
-                            <p class="second__item__text">Вложено в разработку уникальных формул продукции</p>
-                        </div>
-                        <div class="second__right__item">
-                            <img src="./media/2slide/1.svg" alt="" class="second__item__img">
-                            <h3 class="second__item__title"><span class="blue">137 000 000</span> руб.</h3>
-                            <p class="second__item__text">Вложено в разработку уникальных формул продукции</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container lap mob mobsec anim-item">
-                    <p class="second__left__text">
-                        <span class="italic">Профессиональная</span> <br class="lap mob">
-                        косметика для волос
-                        <span class="blue"><img src="./media/textlogo.svg" alt="" class="blueLogo"></span>
-                    </p>
-                    
-                    <a href="./history.html" class="blue__button second__left__button ">ПОДРОБНЕЕ
-                        <div class="button__arrow">
-                            <img src="./media/buttonArrow.svg" alt="">
-                        </div>
-                </a>
-                    <div class="second__right">
-                        <div class="second__right__item">
-                            <img src="./media/2slide/1.svg" alt="" class="second__item__img">
-                            <h3 class="second__item__title"><span class="blue">137 000 000</span> руб.</h3>
-                            <p class="second__item__text">Вложено в разработку уникальных формул продукции</p>
-                        </div>
-                        <div class="second__right__item">
-                            <img src="./media/2slide/1.svg" alt="" class="second__item__img">
-                            <h3 class="second__item__title"><span class="blue">137 000 000</span> руб.</h3>
-                            <p class="second__item__text">Вложено в разработку уникальных формул продукции</p>
-                        </div>
-                        <div class="second__right__item">
-                            <img src="./media/2slide/1.svg" alt="" class="second__item__img">
-                            <h3 class="second__item__title"><span class="blue">137 000 000</span> руб.</h3>
-                            <p class="second__item__text">Вложено в разработку уникальных формул продукции</p>
-                        </div>
-                        <div class="second__right__item">
-                            <img src="./media/2slide/1.svg" alt="" class="second__item__img">
-                            <h3 class="second__item__title"><span class="blue">137 000 000</span> руб.</h3>
-                            <p class="second__item__text">Вложено в разработку уникальных формул продукции</p>
-                        </div>
-                    </div>
-                </div>
-                <img src="./media/bg2.png" alt="" class="second__bg desk anim-item">
-                <img src="./media/2slide/mobbg.png" alt="" class="second__bg lap mob anim-item">
-            </div>
-            <div class="swiper-slide first__slider__second">
-                <div class="container">
-                    <div class="second__wraer">
-                        <div class="second__wraper__imgs">
-                            <img src="./media/product.png" alt="" class="tovar">
-                            <div class="wraper__star desk lap">
-                                <img src="./media/star.svg" alt="" class="wraper__star__star">
-                                <p>ХИТ ПРОДАЖ</p>
-                            </div>
-                        </div>
-                        <div class="second__wraper__text">
-                            <p>Кислородная эмульсия
-                                <span class="italic">
-                                    против выпадения
-                                </span> <br>
-                                и для роста волос, <br class="lap mob"> бровей, ресниц <span class="blue">
-                                    №5</span>
-                            </p>
-                            <button class="blue__button">ПРИОБРЕСТИ <div class="button__arrow"><img
-                                        src="./media/buttonArrow.svg" alt=""></div></button>
-                        </div>
-                    </div>
-                </div>
-                <img src="./media/bg1_2.svg" alt="" class="first__second__bg">
-            </div>
-            <!-- <div class="swiper-slide third anim-slie" data-hash="products">
-                <div class="container">
-                    <div class="third__wraper anim-item">
 
-                        <div class="swiper tovars-slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide tovar__slide">
-                                    <div class="third__wraper__item">
-                                        <div class="third__item__top">
-                                            <img src="./media/product.png" alt="" class="third__top__img">
-                                            <div class="third__top__lider desk lap">ЛИДЕР ПРОДАЖ</div>
-                                        </div>
-                                        <div class="third__item__bottom">
-                                            <p class="third__bottom__text">Кислородная эмульсия против выпадения и для
-                                                роста волос, ресниц, бровей №5, 50мл</p>
-                                            <button class="third__bottom__button blue__button"> ПЕРЕЙТИ НА WB <div
-                                                    class="button__arrow"><img src="./media/buttonArrow.svg" alt="">
-                                                </div></button>
-                                            <button class="third__bottom__button__pop gray__button"
-                                                data-popup="#kislorodnaya_imylsia">ПОДРОБНЕЕ</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide tovar__slide">
-                                    <div class="third__wraper__item">
-                                        <div class="third__item__top">
-                                            <img src="./media/product.png" alt="" class="third__top__img">
-                                            <div class="third__top__lider desk lap">ЛИДЕР ПРОДАЖ</div>
-                                        </div>
-                                        <div class="third__item__bottom">
-                                            <p class="third__bottom__text">Кислородная эмульсия против выпадения и для
-                                                роста волос, ресниц, бровей №5, 50мл</p>
-                                            <button class="third__bottom__button blue__button"> ПЕРЕЙТИ НА WB <div
-                                                    class="button__arrow"><img src="./media/buttonArrow.svg" alt="">
-                                                </div></button>
-                                            <button class="third__bottom__button__pop gray__button"
-                                                data-popup="#kislorodnaya_imylsia">ПОДРОБНЕЕ</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide tovar__slide">
-                                    <div class="third__wraper__item">
-                                        <div class="third__item__top">
-                                            <img src="./media/product.png" alt="" class="third__top__img">
-                                            <div class="third__top__lider desk lap">ЛИДЕР ПРОДАЖ</div>
-                                        </div>
-                                        <div class="third__item__bottom">
-                                            <p class="third__bottom__text">Кислородная эмульсия против выпадения и для
-                                                роста волос, ресниц, бровей №5, 50мл</p>
-                                            <button class="third__bottom__button blue__button"> ПЕРЕЙТИ НА WB <div
-                                                    class="button__arrow"><img src="./media/buttonArrow.svg" alt="">
-                                                </div></button>
-                                            <button class="third__bottom__button__pop gray__button"
-                                                data-popup="#kislorodnaya_imylsia">ПОДРОБНЕЕ</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide tovar__slide">
-                                    <div class="third__wraper__item">
-                                        <div class="third__item__top">
-                                            <img src="./media/product.png" alt="" class="third__top__img">
-                                            <div class="third__top__lider desk lap">ЛИДЕР ПРОДАЖ</div>
-                                        </div>
-                                        <div class="third__item__bottom">
-                                            <p class="third__bottom__text">Кислородная эмульсия против выпадения и для
-                                                роста волос, ресниц, бровей №5, 50мл</p>
-                                            <button class="third__bottom__button blue__button"> ПЕРЕЙТИ НА WB <div
-                                                    class="button__arrow"><img src="./media/buttonArrow.svg" alt="">
-                                                </div></button>
-                                            <button class="third__bottom__button__pop gray__button"
-                                                data-popup="#kislorodnaya_imylsia">ПОДРОБНЕЕ</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide tovar__slide">
-                                    <div class="third__wraper__item">
-                                        <div class="third__item__top">
-                                            <img src="./media/product.png" alt="" class="third__top__img">
-                                            <div class="third__top__lider desk lap">ЛИДЕР ПРОДАЖ</div>
-                                        </div>
-                                        <div class="third__item__bottom">
-                                            <p class="third__bottom__text">Кислородная эмульсия против выпадения и для
-                                                роста волос, ресниц, бровей №5, 50мл</p>
-                                            <button class="third__bottom__button blue__button"> ПЕРЕЙТИ НА WB <div
-                                                    class="button__arrow"><img src="./media/buttonArrow.svg" alt="">
-                                                </div></button>
-                                            <button class="third__bottom__button__pop gray__button"
-                                                data-popup="#kislorodnaya_imylsia">ПОДРОБНЕЕ</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper__tovar__buttons mob">
-                                <div class="prewB"><img src="./media/prewB.svg" alt=""></div>
-                                <div class="nextB"><img src="./media/nextB.svg" alt=""></div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img src="./media/3slide/bg3.png" alt="" class="third__bg">
-            </div> -->
-            <div class="swiper-slide fourth anim-slie" data-hash="professions">
-                <div class="container fourth__wraper">
-                    <div class="fourth__left anim-item">
-                        <h3 class="fourth__left__title">
-                            Для профессионалов
-                        </h3>
-                        <div class="slider-rev-pag">
-                            <p class="rev-pag-num">0<span class="rev-pag-num-num">1</span></p>
-                            <p class="rev-pag-slid">/</p>
-                            <p class="rev-pag-slid">05</p>
-                        </div>
-                        <div class="left__slider">
-
-                            <div class="swiper slider-rev">
-                                <div class="swiper-wrapper">
-                                    <!-- Slides -->
-                                    <div class="swiper-slide rev__slide">
-                                        <div class="rev__item">
-                                            <p class="rev__item__text">«Я уверенно говорю, что Кислородное окрашивание
-                                                от Perfleor –
-                                                процедура, которая обязательно должна быть в арсенале у каждого
-                                                колориста. Красота и
-                                                здоровье волос это важно для меня и моих клиентов».</p>
-                                            <p class="rev__item__name">Татьяна Шарк</p>
-                                            <p class="rev__item__dol">Парикмахер-колорист с 34 летним стажем.</p>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide rev__slide">
-                                        <div class="rev__item">
-                                            <p class="rev__item__text">«Я уверенно говорю, что Кислородное окрашивание
-                                                от Perfleor –
-                                                процедура, которая обязательно должна быть в арсенале у каждого
-                                                колориста. Красота и
-                                                здоровье волос это важно для меня и моих клиентов».</p>
-                                            <p class="rev__item__name">Татьяна Шарк</p>
-                                            <p class="rev__item__dol">Парикмахер-колорист с 34 летним стажем.</p>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide rev__slide">
-                                        <div class="rev__item">
-                                            <p class="rev__item__text">«Я уверенно говорю, что Кислородное окрашивание
-                                                от Perfleor –
-                                                процедура, которая обязательно должна быть в арсенале у каждого
-                                                колориста. Красота и
-                                                здоровье волос это важно для меня и моих клиентов».</p>
-                                            <p class="rev__item__name">Татьяна Шарк</p>
-                                            <p class="rev__item__dol">Парикмахер-колорист с 34 летним стажем.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-rev-buttons">
-                                <div class="prewB slide-rev-prew"><img src="./media/prewB.svg" alt=""></div>
-                                <div class="left__content__num">
-                                    <div class="pagg-rev">
-                                    </div>
-                                </div>
-                                <div class="nextB slide-rev-next"><img src="./media/nextB.svg" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fourth__right desk anim-item">
-                        <div class="fourth__right__title">Вы специалист <br>
-                            или владелец компании?</div>
-                        <div class="fourth__right__text">Мы предлагаем Вам выгодные условия для сотрудничества!
-                            Заполните анкету, чтобы узнать о предложениях и бонусах для Вас</div>
-                        <div class="right-swipe">
-                            <div class="right-swipe__spec active form-spec-swiper" data-form="special">СПЕЦИАЛИСТ</div>
-                            <div class="right-swipe__komp form-spec-swiper" data-form="kompany">КОМПАНИЯ</div>
-                        </div>
-                        <form method="post" class="form-spec active" id="special">
-                            <input class="sorm-spec__input" name="name" type="text" placeholder="Ваше имя">
-                            <input class="sorm-spec__input" name="spec" type="text" placeholder="Специализация">
-                            <input class="sorm-spec__input" name="learn" type="text" placeholder="Место обучения">
-                            <input class="sorm-spec__input" name="stepen" type="text" placeholder="Ученая степень">
-                            <input class="sorm-spec__input" name="jub" type="text" placeholder="Место работы">
-                            <input class="sorm-spec__input" name="tel" type="text" placeholder="+7 (___) ___-__-__*">
-                            <input class="sorm-spec__input" name="mail" type="text" placeholder="Почта">
-                            <button class="sorm-spec__button  blue__button" type="submit">ОТПРАВИТЬ<div
-                                    class="button__arrow"><img src="./media/4slide/arrow.svg" alt=""></div></button>
-                        </form>
-                        <form method="post" class="form-spec" id="kompany">
-                            <input class="sorm-spec__input" name="name" type="text" placeholder="Ваше имя">
-                            <input class="sorm-spec__input" name="spec" type="text" placeholder="Специализация">
-                            <input class="sorm-spec__input" name="learn" type="text" placeholder="Место обучения">
-                            <input class="sorm-spec__input" name="stepen" type="text" placeholder="Ученая степень">
-                            <input class="sorm-spec__input" name="tel" type="text" placeholder="+7 (___) ___-__-__*">
-                            <input class="sorm-spec__input" name="mail" type="text" placeholder="Почта">
-                            <button class="sorm-spec__button  blue__button" type="submit">ОТПРАВИТЬ<div
-                                    class="button__arrow"><img src="./media/4slide/arrow.svg" alt=""></div></button>
-                        </form>
-                        <img src="./media/4slide/formbg.png" alt="" class="fourth__right__bg">
-                    </div>
-                </div>
-                <img src="./media/4slide/bg.png" alt="" class="fourth__bg desk anim-item">
-                <img src="./media/4slide/bgmob.png" alt="" class="fourth__bg lap anim-item">
-                <img src="./media/4slide/mobbg.png" alt="" class="fourth__bg mob anim-item">
-            </div>
-            <div class="swiper-slide fourth lap mob anim-slie" data-hash="form">
-                <div class="container fourth__wraper">
-                    <div class="fourth__right anim-item">
-                        <div class="fourth__right__title">Вы специалист <br>
-                            или владелец компании?</div>
-                        <div class="fourth__right__text">Мы предлагаем Вам выгодные условия для сотрудничества!
-                            Заполните анкету, чтобы узнать о предложениях и бонусах для Вас</div>
-                        <div class="right-swipe">
-                            <div class="right-swipe__spec active form-spec-swiper" data-form="special1">СПЕЦИАЛИСТ</div>
-                            <div class="right-swipe__komp form-spec-swiper" data-form="kompany1">КОМПАНИЯ</div>
-                        </div>
-                        <form method="post" class="form-spec active" id="special1">
-                            <input class="sorm-spec__input" name="name" type="text" placeholder="Ваше имя">
-                            <input class="sorm-spec__input" name="spec" type="text" placeholder="Специализация">
-                            <input class="sorm-spec__input" name="learn" type="text" placeholder="Место обучения">
-                            <input class="sorm-spec__input" name="stepen" type="text" placeholder="Ученая степень">
-                            <input class="sorm-spec__input" name="jub" type="text" placeholder="Место работы">
-                            <input class="sorm-spec__input" name="tel" type="text" placeholder="+7 (___) ___-__-__*">
-                            <input class="sorm-spec__input" name="mail" type="text" placeholder="Почта">
-                            <button class="sorm-spec__button  blue__button" type="submit">ОТПРАВИТЬ<div
-                                    class="button__arrow"><img src="./media/4slide/arrow.svg" alt=""></div></button>
-                        </form>
-                        <form method="post" class="form-spec" id="kompany1">
-                            <input class="sorm-spec__input" name="name" type="text" placeholder="Ваше имя">
-                            <input class="sorm-spec__input" name="spec" type="text" placeholder="Специализация">
-                            <input class="sorm-spec__input" name="learn" type="text" placeholder="Место обучения">
-                            <input class="sorm-spec__input" name="stepen" type="text" placeholder="Ученая степень">
-                            <input class="sorm-spec__input" name="tel" type="text" placeholder="+7 (___) ___-__-__*">
-                            <input class="sorm-spec__input" name="mail" type="text" placeholder="Почта">
-                            <button class="sorm-spec__button  blue__button" type="submit">ОТПРАВИТЬ<div
-                                    class="button__arrow"><img src="./media/4slide/arrow.svg" alt=""></div></button>
-                        </form>
-                        <img src="./media/4slide/formbg.png" alt="" class="fourth__right__bg">
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide fivth  anim-slie" data-hash="contacts">
-                <!-- <img src="./media/4slide/asdasd.png" alt="" class="check"> -->
-                <div class="container contacts__wraper">
-                    <div class="contacts__left">
-                        <h3 class="contacts__left__title">
-                            Контакты
-                        </h3>
-                        <p class="contacts__left__adress">Адрес:</p>
-                        <p class="contacts__left__adress-name">142200, Московская область, г. Серпухов, ул. Советская,
-                            д. 31/21, оф. 105</p>
-                        <div class="contacts__left__grid">
-                            <div class="contacts__left__item">
-                                <p class="contacts__item__title">Телефон:</p>
-                                <p class="contacts__item__text">+7 (800) 222-80-18 </p>
-                            </div>
-                            <div class="contacts__left__item">
-                                <p class="contacts__item__title">E-mail:</p>
-                                <p class="contacts__item__text">laboratoriya.pushkina@mail.ru</p>
-                            </div>
-                            <div class="contacts__left__item">
-                                <p class="contacts__item__title">Время работы:</p>
-                                <p class="contacts__item__text">Пн-Пт: с 10:00 до 18:00 <br>
-                                    Сб-Вс: выходной.</p>
-                            </div>
-                            <div class="contacts__left__item">
-                                <p class="contacts__item__title">ООО «ЛАБОРАТОРИЯ ПУШКИНА»</p>
-                                <p class="contacts__item__text">ИНН 5043049955 <br>
-                                    ОГРН 1135043004084</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contacts__right desk">
-                        <p class="contacts__right__title">Остались вопросы?</p>
-                        <p class="contacts__right__desc">Оставьте свои данные и наш менеджер свяжется с вами в ближайшее
-                            время</p>
-                        <form method="post" class="form-quest">
-                            <input class="sorm-spec__input quest__input" type="text" placeholder="Ваше имя">
-                            <input class="sorm-spec__input quest__input" type="text" placeholder="+7 (___) ___-__-__*">
-                            <input class="sorm-spec__input quest__input" type="text" placeholder="E-mail">
-                            <textarea class="sorm-spec__input quest__text-area" name=""
-                                placeholder="Ваш вопрос..."></textarea>
-                            <button class="sorm-spec__button form-quest__button  blue__button" type="submit">ОТПРАВИТЬ
-                                <div class="button__arrow"><img src="./media/4slide/arrow.svg" alt=""></div>
-                            </button>
-                        </form>
-                        <img src="./media/5slide/formBg.svg" alt="" class="form-quest__bg">
-                    </div>
-                </div>
-                <iframe class="maps desk"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1146.6028742529147!2d37.41500811479632!3d54.91686156466761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41351145c834d8d9%3A0x4e3b6462ab3585d9!2z0YPQuy4g0KHQvtCy0LXRgtGB0LrQsNGPLCAzMS8yMSwgMTA1LCDQodC10YDQv9GD0YXQvtCyLCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNDIyMDA!5e0!3m2!1sru!2sru!4v1675187188242!5m2!1sru!2sru"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="swiper-slide fivth lap mob anim-slie" data-hash="contacts">
-                <div class="container contacts__wraper">
-                    <h3 class="contacts__left__title sad">
-                        Контакты
-                    </h3>
-                    <div class="contacts__right">
-                        <p class="contacts__right__title">Остались вопросы?</p>
-                        <p class="contacts__right__desc">Оставьте свои данные и наш менеджер свяжется с вами в ближайшее
-                            время</p>
-                        <form method="post" class="form-quest">
-                            <input class="sorm-spec__input quest__input" type="text" placeholder="Ваше имя">
-                            <input class="sorm-spec__input quest__input" type="text" placeholder="+7 (___) ___-__-__*">
-                            <input class="sorm-spec__input quest__input" type="text" placeholder="E-mail">
-                            <textarea class="sorm-spec__input quest__text-area" name=""
-                                placeholder="Ваш вопрос..."></textarea>
-                            <button class="sorm-spec__button form-quest__button  blue__button" type="submit">ОТПРАВИТЬ
-                                <div class="button__arrow"><img src="./media/4slide/arrow.svg" alt=""></div>
-                            </button>
-                        </form>
-                        <img src="./media/5slide/formBg.svg" alt="" class="form-quest__bg">
-                    </div>
-                </div>
-                <iframe class="maps"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1146.6028742529147!2d37.41500811479632!3d54.91686156466761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41351145c834d8d9%3A0x4e3b6462ab3585d9!2z0YPQuy4g0KHQvtCy0LXRgtGB0LrQsNGPLCAzMS8yMSwgMTA1LCDQodC10YDQv9GD0YXQvtCyLCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNDIyMDA!5e0!3m2!1sru!2sru!4v1675187188242!5m2!1sru!2sru"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+    <main>
+        <div class="main container">
+            <h1 class="main__heading">UP Studio Team</h1>
+            <ul class="main__list">
+                <li class="main__list__item">
+                    <div>Работаем с разными направлениями бизнеса: <br>
+                        от косметологии до промышленных предприятий</div>
+                </li>
+                <li class="main__list__item">
+                    <div> <span class="green-text">Удвоим</span> вашу прибыль за <span class="green-text"> 3
+                            месяца</span></div>
+                </li>
+                <li class="main__list__item">
+                    <div>Все услуги маркетинга в <span class="green-text"> одном месте: </span>
+                        вам больше не придется искать десятки исполнителей</div>
+                </li>
+            </ul>
+            <button class="main__button scrollBtn pipi-button" data-b=".zayavka">Запишись на бесплатный аудит <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></button>
+            <p class="main__descriprion">UP Studio – всероссийская команда UX/UI дизайнеров и веб-разработчиков</p>
+            <img src="./media/topBlock/sercl.svg" alt="" class="main__bg">
         </div>
-    </div>
-    <div class=" opPuggin desk lap">
-
-        <div class="puggin"></div>
-    </div>
-
-
-    <div class="popup">
-        <div class="popup__podrobnee popups" id="#kislorodnaya_imylsia">
-            <div class="closePopups__wraper">
-                <div class="closePopups krestClose"></div>
-            </div>
-            <div class="popup__podrobnee__wraper desk">
-                <div class="popup__podrobnee__left">
-                    <img src="./media/product.png" alt="" class="popup__left__img">
-                    <ul class="popup__left__list">
-                        <li class="popup__left__item"><span>В наличии:</span> Да</li>
-                        <li class="popup__left__item"><span>Объем:</span> 50 мл</li>
-                        <li class="popup__left__item"><span>Цена:</span> 3200 руб</li>
-                    </ul>
+        <div class="pluss container">
+            <div class="pluss__wraper">
+                <div class="pluss__wraper__block">
+                    <div class="pluss__item">
+                        <div class="plus-wraper">
+                            <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img">
+                            <p class="pluss__item__text">Освобождаем ваше время</p>
+                        </div>
+                    </div>
+                    <div class="pluss__item moblast">
+                        <div class="plus-wraper">
+                            <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img">
+                            <p class="pluss__item__text">Освобождаем ваше время</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="popup__podrobnee__right ">
-                    <h3 class="popup__right__title">Кислородная эмульсия против выпадения и для роста волос, ресниц,
-                        бровей №5, 50мл</h3>
-                    <p class="popup__right__info">Средство, которое поможет в домашних условиях остановить выпадение,
-                        ускорить рост новых волос, вернуть объем и густоту вашей прическе. Уникальный состав на основе
-                        перфторорганических соединений проникает в глубокие слои кожи и воздействует на спящие волосяные
-                        фолликулы.</p>
-                    <p class="popup__right__info">Благодаря доставке активного кислорода и питательных веществ
-                        разрастается капиллярная сеть, которая питает волосяную луковицу. Perfleor не содержит гормонов,
-                        парабенов, фталатов, миноксидила и не имеет противопоказаний.</p>
-                    <p class="popup__right__btm">Восстанавливайте красоту волос в домашних условиях без инъекций, боли и
-                        эффекта отмены!</p>
-                    <button class="blue__button popup__right__button">ПЕРЕЙТИ НА WB<div class="button__arrow"><img
-                                src="./media/buttonArrow.svg" alt=""></div></button>
-                </div>
-            </div>
-            <div class="mob lap">
-                <div class="popup__podrobnee__wraper lap mob">
-                    <div class="popup__podrobnee__left">
-                        <img src="./media/product.png" alt="" class="popup__left__img">
-                        <h3 class="popup__right__title">Кислородная эмульсия против выпадения и для роста волос, ресниц,
-                            бровей №5, 50мл
-                        </h3>
+                <div class="pluss__wraper__block">
+                    <div class="pluss__item">
+                        <div class="plus-wraper">
+                            <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img sec">
+                            <p class="pluss__item__text">Освобождаем ваше время</p>
+                        </div>
                     </div>
-                    <div class="popup__podrobnee__right">
-                        <p class="popup__right__info">Средство, которое поможет в домашних условиях остановить
-                            выпадение,
-                            ускорить рост новых волос, вернуть объем и густоту вашей прическе. Уникальный состав на
-                            основе
-                            перфторорганических соединений проникает в глубокие слои кожи и воздействует на спящие
-                            волосяные
-                            фолликулы.</p>
-                        <p class="popup__right__info">Благодаря доставке активного кислорода и питательных веществ
-                            разрастается капиллярная сеть, которая питает волосяную луковицу. Perfleor не содержит
-                            гормонов,
-                            парабенов, фталатов, миноксидила и не имеет противопоказаний.</p>
+                    <div class="pluss__item last">
+                        <div class="plus-wraper">
+                            <img src="./media/plus/plusImg.svg" alt="" class="pluss__item__img sec">
+                            <p class="pluss__item__text">Освобождаем ваше время</p>
+                        </div>
                     </div>
-                    <div class="popup__btm">
-                        <ul class="popup__left__list">
-                            <li class="popup__left__item"><span>В наличии:</span> Да</li>
-                            <li class="popup__left__item"><span>Объем:</span> 50 мл</li>
-                            <li class="popup__left__item"><span>Цена:</span> 3200 руб</li>
-                        </ul>
-                        <p class="popup__right__btm">Восстанавливайте красоту волос в домашних условиях без инъекций,
-                            боли и
-                            эффекта отмены!</p>
-                    </div>
-                    <button class="blue__button popup__right__button">ПЕРЕЙТИ НА WB<div class="button__arrow"><img
-                                src="./media/buttonArrow.svg" alt=""></div>
-                    </button>
                 </div>
             </div>
         </div>
+        <div class="partners">
+            <div class="container">
+                <h3 class="partners__heading">С нами работают</h3>
+            </div>
+            <div class="partners__block"></div>
+        </div>
+        <div class="portfolio">
+            <div class="container portfolio-wraper">
+                <h3 class="portfolio__heading">С нами уже <span class="green-text">150</span> бизнесов вышли на новый уровень!</h3>
+                <button class="portfolio__button change lab desk"><div class="button-change"><p class="mark">Маркетинг</p><p class="syte">Сайты</p></div></button>
+            </div>
+            <div class="swiper portfolio-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide portfolio-slide">
+                    <div class="slider-slide-wraper">
+                        <div class="portfolio-slide__wraper">
+                            <div class="slide-text__wraper">
+                                <p class="slide__heading">Лендинг</p>
+                                <p class="slide__text"> 
+                                    <span class="green-text"> Цель: </span>привлечь новых клиентов через рекламу в Яндекс и MyTarget
+                                </p>
+                            </div>
+                            <img src="./media/portfolio/portfolioImg.png" alt="" class="slide-img">
+                            
+                        </div>
+                        <a href="#" class="slide-button">Перейти</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide portfolio-slide">
+                    <div class="slider-slide-wraper">
+                        <div class="portfolio-slide__wraper">
+                            <div class="slide-text__wraper">
+                                <p class="slide__heading">Лендинг</p>
+                                <p class="slide__text"> 
+                                    <span class="green-text"> Цель: </span>привлечь новых клиентов через рекламу в Яндекс и MyTarget
+                                </p>
+                            </div>
+                            <img src="./media/portfolio/portfolioImg.png" alt="" class="slide-img">
+                            
+                        </div>
+                        <div class="slide-button">Перейти</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide portfolio-slide">
+                    <div class="slider-slide-wraper">
+                        <div class="portfolio-slide__wraper">
+                            <div class="slide-text__wraper">
+                                <p class="slide__heading">Лендинг</p>
+                                <p class="slide__text"> 
+                                    <span class="green-text"> Цель: </span>привлечь новых клиентов через рекламу в Яндекс и MyTarget
+                                </p>
+                            </div>
+                            <img src="./media/portfolio/portfolioImg.png" alt="" class="slide-img">
+                            
+                        </div>
+                        <div class="slide-button">Перейти</div>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+            <div class="container portfolie-swiper-buttons desk mob">
+                <button class="portfolio-swiper-prev"><img src="./media/portfolio/prew.svg" alt=""></button>
+                <button class="portfolio-swiper-next"><img src="./media/portfolio/next.svg" alt=""></button>
+            </div>
+            <div class="mob mob-port-button">
+                <button class="portfolio__button mon-but change"><div class="button-change"><p class="mark">Маркетинг</p><p class="syte">Сайты</p></div></button>
+            </div>
+        </div>
+        <div class="deals">
+            <div class="deals-wraper container">
+                <h3 class="deals__heading">Услуги</h3>
+            </div>
+            
+            <div class="swiper deals-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide deals-slide">
+                    <div class="deals-slide__wraper">
+                        <div class="deals__wraper__item">
+                            <p class="deals-slide__heading">Создание сайта</p>
+                            <ul class="deals-slide__list">
+                                <li class="deals-slide__list__item">Html5</li>
+                                <li class="deals-slide__list__item">CSS3</li>
+                                <li class="deals-slide__list__item">JS</li>
+                                <li class="deals-slide__list__item">Figma</li>
+                                <li class="deals-slide__list__item">Adobe illustrator</li>
+                                <li class="deals-slide__list__item">Wordpress/Tilda</li>
+                            </ul>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide deals-slide">
+                    <div class="deals-slide__wraper">
+                        <div class="deals__wraper__item">
+                            <p class="deals-slide__heading">Создание сайта</p>
+                            <ul class="deals-slide__list">
+                                <li class="deals-slide__list__item">Html5</li>
+                                <li class="deals-slide__list__item">CSS3</li>
+                                <li class="deals-slide__list__item">JS</li>
+                                <li class="deals-slide__list__item">Figma</li>
+                                <li class="deals-slide__list__item">Adobe illustrator</li>
+                                <li class="deals-slide__list__item">Wordpress/Tilda</li>
+                            </ul>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide deals-slide">
+                    <div class="deals-slide__wraper">
+                        <div class="deals__wraper__item">
+                            <p class="deals-slide__heading">Создание сайта</p>
+                            <ul class="deals-slide__list">
+                                <li class="deals-slide__list__item">Html5</li>
+                                <li class="deals-slide__list__item">CSS3</li>
+                                <li class="deals-slide__list__item">JS</li>
+                                <li class="deals-slide__list__item">Figma</li>
+                                <li class="deals-slide__list__item">Adobe illustrator</li>
+                                <li class="deals-slide__list__item">Wordpress/Tilda</li>
+                            </ul>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide deals-slide">
+                    <div class="deals-slide__wraper">
+                        <div class="deals__wraper__item">
+                            <p class="deals-slide__heading">Создание сайта</p>
+                            <ul class="deals-slide__list">
+                                <li class="deals-slide__list__item">Html5</li>
+                                <li class="deals-slide__list__item">CSS3</li>
+                                <li class="deals-slide__list__item">JS</li>
+                                <li class="deals-slide__list__item">Figma</li>
+                                <li class="deals-slide__list__item">Adobe illustrator</li>
+                                <li class="deals-slide__list__item">Wordpress/Tilda</li>
+                            </ul>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide deals-slide">
+                    <div class="deals-slide__wraper">
+                        <div class="deals__wraper__item">
+                            <p class="deals-slide__heading">Создание сайта</p>
+                            <ul class="deals-slide__list">
+                                <li class="deals-slide__list__item">Html5</li>
+                                <li class="deals-slide__list__item">CSS3</li>
+                                <li class="deals-slide__list__item">JS</li>
+                                <li class="deals-slide__list__item">Figma</li>
+                                <li class="deals-slide__list__item">Adobe illustrator</li>
+                                <li class="deals-slide__list__item">Wordpress/Tilda</li>
+                            </ul>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide deals-slide">
+                    <div class="deals-slide__wraper">
+                        <div class="deals__wraper__item">
+                            <p class="deals-slide__heading">Создание сайта</p>
+                            <ul class="deals-slide__list">
+                                <li class="deals-slide__list__item">Html5</li>
+                                <li class="deals-slide__list__item">CSS3</li>
+                                <li class="deals-slide__list__item">JS</li>
+                                <li class="deals-slide__list__item">Figma</li>
+                                <li class="deals-slide__list__item">Adobe illustrator</li>
+                                <li class="deals-slide__list__item">Wordpress/Tilda</li>
+                            </ul>
+                            <div class="deals-slide__button pipi-button scrollBtn" data-b=".calculator">Заказать <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></div>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+
+            <div class="container lap desk buttons-wraper">
+                <button class="button-prev not-active"><img src="./media/deals/prevBtn.svg" alt=""></button>
+                <button class="button-next"><img src="./media/deals/nextBtn.svg" alt=""></button>
+            </div>
+        </div>
+        <div class="opredelit">
+            <div class="opredelit-wraper container">
+                <h3 class="opredelit__heading">Не можете определиться?</h3>
+                <p class="opredelit__description">Ответьте на несколько вопросов и мы сделаем вам идндивидуальное предложение</p>
+                <button class="opredelit__button scrollBtn" data-b=".calculator">Ответить</button>
+            </div>
+        </div>
+        <div class="rule container">
+            <div class="rule__top">
+                <h3 class="rule__top__heading">Наше правило – ЗБС</h3>
+                <button class="rule__top__button desk scrollBtn" data-b=".zayavka">Оставить заявку <img src="./media/rule/buttonBg.svg" alt=""></button>
+            </div>
+            <div class="rule__wraper">
+                <div class="rule__wraper__item">
+                    <div class="rule-text">
+                        <div class="rule-text__text">
+                            <h3 class="rule__wraper__item__heading">За качество </h3>
+                            <p class="rule__wraper__item__text">Работаем только ради результа </p>
+                            <p class="rule__wraper__item__text">Сделаем для вас социальные сети, которые приносят прибыль и новых клиентов, а не головную боль </p>
+                            <p class="rule__wraper__item__text">Вы не встретите свой дизайн сайта у конкурентов, он будет уникальным на 100% и разработан с учетом всех ваших пожеланий </p>
+                        </div>
+                    </div>
+                    <img src="./media/rule/ruleBg.svg" alt="" class="rule__wraper__item__bg">
+                </div>
+                <div class="rule__wraper__item">
+                    <div class="rule-text">
+                        <div class="rule-text__text">
+                            <h3 class="rule__wraper__item__heading">За качество </h3>
+                            <p class="rule__wraper__item__text">Работаем только ради результа </p>
+                            <p class="rule__wraper__item__text">Сделаем для вас социальные сети, которые приносят прибыль и новых клиентов, а не головную боль </p>
+                            <p class="rule__wraper__item__text">Вы не встретите свой дизайн сайта у конкурентов, он будет уникальным на 100% и разработан с учетом всех ваших пожеланий </p>
+                        </div>
+                    </div>
+                    <img src="./media/rule/ruleBg.svg" alt="" class="rule__wraper__item__bg">
+                </div>
+                <div class="rule__wraper__item">
+                    <div class="rule-text">
+                        <div class="rule-text__text">
+                            <h3 class="rule__wraper__item__heading">За качество </h3>
+                            <p class="rule__wraper__item__text">Работаем только ради результа </p>
+                            <p class="rule__wraper__item__text">Сделаем для вас социальные сети, которые приносят прибыль и новых клиентов, а не головную боль </p>
+                            <p class="rule__wraper__item__text">Вы не встретите свой дизайн сайта у конкурентов, он будет уникальным на 100% и разработан с учетом всех ваших пожеланий </p>
+                        </div>
+                    </div>
+                    <img src="./media/rule/ruleBg.svg" alt="" class="rule__wraper__item__bg">
+                </div>
+            </div>
+        </div>
+        <div class="calculator container">
+            <h3 class="calculator__heading">Готовы перейти на новый уровень?</h3>
+            <p class="calculator__description">Поможем создать бизнес мечты с 🍋 оборотами</p>
+            <div class="calculator-wraper">
+                <div class="calculator-wraper__right">
+                    <p class="calculator-wraper__right__heading">Примерная стоимость</p>
+                    <div class="calculator-wraper__right__price"> <p><span>от</span> <span class="priseinner"> 15 000</span>₽</p></div>
+                    <div class="mobflex">
+                        <p class="calculator-wraper__right__description">Точную стоимость сможем назвать после обсуждения </p>
+                        <div class="button-color-border">
+                            <div class="button-border"></div>
+                            <button class="calculator-wraper__right__button scrollBtn" data-b=".zayavka">Cвязаться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculator-wraper__left">
+                    <div class="calculator-wraper__left__scroll">
+                        <div class="calculator-wraper__left__scroll__item active-quiz-slide">
+                            <p class="scroll-heading">Какое направление вас интересует?</p>
+                            <div class="scroll-item__wraper lap-scrolling">
+                                <label for="quest1_a1" class="answer radio-label active syteAdd q1 ">
+                                    <p class="label-name">Создание
+                                        сайта</p>
+                                    <img src="./media/quiz/1.png" alt="" class="label-bg">
+                                </label>
+                                <label for="quest1_a2" class="answer radio-label webAdd q1 ">
+                                    <p class="label-name">Веб-
+                                        приложение</p>
+                                    <img src="./media/quiz/2.png" alt="" class="label-bg">
+                                </label>
+                                <label for="quest1_a3" class="answer radio-label markAdd q1 ">
+                                    <p class="label-name">Маркетинг</p>
+                                    <img src="./media/quiz/3.png" alt="" class="label-bg">
+                                </label>
+                                <label for="quest1_a4" class="answer radio-label placeAdd q1 ">
+                                    <p class="label-name">Маркет-
+                                        плэйсы</p>
+                                    <img src="./media/quiz/4.png" alt="" class="label-bg">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="sytSec secquests active">
+                            <div class="mob-questions second-quests">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">У вас есть дизайн макет?</p>
+                                    <div class="scroll-item__wraper">
+                                        <label for="design_a1" class="label-two second-quest radio-label active q2">да</label>
+                                        <label for="design_a2" class="label-two second-quest radio-label q2">нет</label>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Есть ли Техническое задание?</p>
+                                    <div class="scroll-item__wraper">
+                                        <label for="tz_a1" class="label-two second-quest radio-label active q3">да</label>
+                                        <label for="tz_a2" class="label-two second-quest radio-label q3">нет</label>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Опишите тематику Веб приложения</p>
+                                    <div class="scroll-item__wraper">
+                                        <textarea type="text" class="textIn quiz-textarea" data-for=".about" placeholder="Например: Сайт для привлечения новых клиентов.  Ниша - производство косметики"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Нужна ли CRM?</p>
+                                    <div class="scroll-item__wraper">
+                                        <label for="crm_a1" class="label-two second-quest radio-label active q4 long">На базе готовых CRM (Bitrix24, AmoCRM, Wordpress и.т.д)</label>
+                                        <label for="crm_a2" class="label-two second-quest radio-label q4 long">Персональная разработка backend и админ. панели</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="webSec secquests">
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Какой сайт вас интересует?</p>
+                                    <div class="scroll-item__wraper flex-wrap">
+                                        <label for="withSyte1" class="label-two second-quest radio-label active sq2">Лендинг</label>
+                                        <label for="withSyte2" class="label-two second-quest radio-label sq2">ВИЗИТКА</label>
+                                        <label for="withSyte3" class="label-two second-quest radio-label sq2">МАГАЗИН</label>
+                                        <label for="withSyte4" class="label-two second-quest radio-label sq2">Одностраничный</label>
+                                        <label for="withSyte5" class="label-two second-quest radio-label sq2">КОрпоративный</label>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">У вас есть дизайн макет?</p>
+                                    <div class="scroll-item__wraper">
+                                        <label for="design_a1" class="label-two second-quest radio-label active q2">да</label>
+                                        <label for="design_a2" class="label-two second-quest radio-label q2">нет</label>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Есть ли Техническое задание?</p>
+                                    <div class="scroll-item__wraper">
+                                        <label for="tz_a1" class="label-two second-quest radio-label active q3">да</label>
+                                        <label for="tz_a2" class="label-two second-quest radio-label q3">нет</label>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Опишите тематику сайта</p>
+                                    <div class="scroll-item__wraper">
+                                        <textarea type="text" class="textIn quiz-textarea" data-for=".about" placeholder="Например: Сайт для привлечения новых клиентов.  Ниша - производство косметики"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="marketting secquests">
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Опишите ваш проект</p>
+                                    <div class="scroll-item__wraper">
+                                        <textarea type="text" class="textIn quiz-textarea" data-for=".about" placeholder="Например: Сайт для привлечения новых клиентов.  Ниша - производство косметики"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="marketplace secquests">
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Опишите ваш проект</p>
+                                    <div class="scroll-item__wraper">
+                                        <textarea type="text" class="textIn quiz-textarea" data-for=".about" placeholder="Например: Сайт для привлечения новых клиентов.  Ниша - производство косметики"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Вы уже зарегистрированы на МП?</p>
+                                    <div class="scroll-item__wraper">
+                                        <label for="marketpalce1" class="label-two second-quest radio-label active q2">да</label>
+                                        <label for="marketpalce2" class="label-two second-quest radio-label q2">нет</label>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Развитие каких МП вас интересует?</p>
+                                    <div class="scroll-item__wraper flex-wrap">
+                                        <label for="withSyte1" class="label-two second-quest radio-label  active sq4">Wildberries </label>
+                                        <label for="withSyte2" class="label-two second-quest radio-label sq4">Ozon</label>
+                                        <label for="withSyte3" class="label-two second-quest radio-label sq4">Lamoda </label>
+                                        <label for="withSyte4" class="label-two second-quest radio-label sq4">Яндекс.Маркет</label>
+                                        <label for="withSyte5" class="label-two second-quest radio-label sq4">AliExpress </label>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Сколько позиций товаров планируете продавать на МП?</p>
+                                    <div class="scroll-item__wraper flex-wrap">
+                                        <input type="number" data-for=".marknum" class="textIn inp numin" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">К каким оборотам хотите выйти через 3-5 месяцев работы?</p>
+                                    <div class="scroll-item__wraper">
+                                        <textarea type="text" class="textIn quiz-textarea" data-for=".oboroty" placeholder=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mob-questions second-quests webSec">
+                                <div class="calculator-wraper__left__scroll__item sec">
+                                    <p class="scroll-heading">Дополнительная информация, которую нам важно знать </p>
+                                    <div class="scroll-item__wraper">
+                                        <textarea type="text" class="textIn quiz-textarea" data-for=".dopinfo" placeholder=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mob-questions second-quests">
+                            <div class="calculator-wraper__left__scroll__item sec">
+                                <p class="scroll-heading last">Введите данные, чтобы узнать точную стоимость</p>
+                                <div class="scroll-item__wraper last">
+                                    <input type="text" data-for=".name" class="textIn inp" placeholder="Ваше имя">
+                                    <input type="text" data-for=".phone" class="textIn inp" placeholder="+7 (900) 000-00-00">
+                                    <label for="subbtn" class="subbtnlabel">Узнать</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calculator-wraper__left__info">
+                        <div class="numofquest">
+                            <p class="numquest">0<span class="innernum">1</span></p>
+                            <p>/</p>
+                            <p class="howMth">06</p>
+                        </div>
+                        <div class="quiz__buttons">
+                            <button class="quiz__buttons__prew not-active">Назад</button>
+                            <button class="pipi-button quiz__buttons__next">Далее <img src="./media/pipibutton.svg" alt="" class="pipi__bg"></button>
+                        </div>
+                    </div>
+                    <form action="" class="inv-form">
+                        <input type="radio" name="which" id="quest1_a1" checked="checked" value="создание сайта">
+                        <input type="radio" name="which" id="quest1_a2" value="Веб приложение">
+                        <input type="radio" name="which" id="quest1_a3" value="Маркетинг">
+                        <input type="radio" name="which" id="quest1_a4" value="Маркетплейсы">
+                        <div class="mob-form">
+                            <input type="radio" name="design" id="design_a1" checked="checked" value="дизайн не нужен">
+                            <input type="radio" name="design" id="design_a2" value="дизайн нужен">
+                            <input type="radio" name="tz" value="тз не нужно" id="tz_a1" checked="checked" >
+                            <input type="radio" name="tz" value="тз нужно" id="tz_a2">
+                            <input type="radio" name="crm" value="На базе готовых CRM (Bitrix24, AmoCRM, Wordpress и.т.д)" id="crm_a1" checked="checked" >
+                            <input type="radio" name="crm" value="Персональная разработка backend и админ. панели" id="crm_a2">
+                            <input type="text" class="textoThis about" id="test" name="desc">
+                            <input type="text" class="textoThis name" id="namein" name="FIO">
+                            <input type="text" class="textoThis phone" id="phonein" name="phone">
+                        </div>
+                        <div class="web-form">
+                            <input id="withSyte1" type="radio" name="withSyte" checked="checked" value="Лендинг">
+                            <input id="withSyte2" type="radio" name="withSyte" value="ВИЗИТКА">
+                            <input id="withSyte3" type="radio" name="withSyte" value="МАГАЗИН">
+                            <input id="withSyte4" type="radio" name="withSyte" value="Одностраничный">
+                            <input id="withSyte5" type="radio" name="withSyte" value="КОрпоративный">
+                        </div>
+                        <div class="mark-form">
+                            <input id="marketpalce1" type="radio" name="marketreg" checked="checked" value="зарегистрирован на мп">
+                            <input id="marketpalce2" type="radio" name="marketreg" value="не зарегистрирован на мп">
+                            <input id="marketpalcewith1" type="checkbox" name="marketwich" checked="checked" value="Wildberries ">
+                            <input id="marketpalcewith2" type="checkbox" name="marketwich" value="Ozon">
+                            <input id="marketpalcewith3" type="checkbox" name="marketwich" value="Lamoda  ">
+                            <input id="marketpalcewith4" type="checkbox" name="marketwich" value="Яндекс.Маркет">
+                            <input id="marketpalcewith5" type="checkbox" name="marketwich" value="AliExpress ">
+                            <input type="number" class="textoThis marknum" id="marknum" name="marknum">
+                            <input type="text" class="textoThis oboroty" id="oboroty" name="oboroty">
+                            <input type="text" class="textoThis dopinfo" id="dopinfo" name="dopinfo">
+                        </div>
+                        <button type="submit" id="subbtn"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="etaps container">
+            <h3 class="etaps__heading">Этапы работы</h3>
+            <p class="etaps__desc">проще просто не бывает</p> 
+            <div class="etaps__wraper">
+                <img src="./media/etaps/main.svg" alt="" class="etaps__wraper__bg desk">
+                <img src="./media/etaps/mainLap.svg" alt="" class="etaps__wraper__bg lab">
+                <img src="./media/etaps/mobmain.svg" alt="" class="etaps__wraper__bg mob">
+            </div>
+        </div>
+        <div class="zayavka container">
+            <img src="./media/zayavka/bg.svg" alt="" class="zayavka__img">
+            <div class="zayavka__right">
+                <div class="zayavka__right__text">
+                    <h3 class="zayavka__heading">Оставьте заявку</h3>
+                    <p class="zayavka__desc">И мы перезвоним в течение 15 минут</p>
+                </div>
+                <form action="" class="zayavka__form">
+                    <input type="text" name="fio" placeholder="Ваше имя">
+                    <input type="text" name="phone" placeholder="+7 (900) 000-00-00">
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer container">
+            <img src="./media/header/logo.svg" alt="" class="footer__logo">
+            <div class="footer__menu">
+                <ul class="footer__menu__list desk lap">
+                    <li class="scrollBtn" data-b=".main">О нас</li>
+                    <li class="desk scrollBtn" data-b=".partners">Партнеры</li>
+                    <li class="scrollBtn" data-b=".portfolio">Портфолио</li>
+                    <li class="scrollBtn" data-b=".deals">Услуги</li>
+                    <li class="desk scrollBtn" data-b="">Команда</li>
+                    <li class="scrollBtn" data-b=".etaps">Этапы</li>
+                </ul>
+                <div class="footer__menu__btm">
+                    <a href="" class="footer__menu__btm__polityc">Политика конфиденциальности</a>
+                    <p class="footer__menu__btm__copyryting">Copyright © 2020-2023, UpStudio</p>
+                </div>
+            </div>
+            <div class="footer__contacts">
+                <p class="footer__contacts__phone">+7 (911) 777-77-77</p>
+                <p class="footer__contacts__email">support@upstudio.team</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bg">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/app.js"></script>
 </body>
