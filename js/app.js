@@ -273,6 +273,7 @@ let mobileMenu = document.querySelector('.mobile-menu')
 
 mobileMenuBtn.onclick = ()=>{
     mobileMenu.classList.toggle('active')
+    mobileMenuBtn.classList.toggle('active')
 }
 
 //работа калькулятора

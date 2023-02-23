@@ -1936,7 +1936,7 @@ header {
         position: absolute;
         align-items: flex-end;
         top: 0;
-        right: -21rem;
+        right: -22rem;
         transform: translateX(150%);
         width: 180rem;
         transition: all .4s ease;
@@ -1985,8 +1985,16 @@ header {
                 height: 1rem;
                 position: absolute;
                 right: 0;
+                transition: all .4s ease;
                 background: #EAE6E5;
 
+            }
+        }
+        &.active {
+            & span {
+                &::after {
+                    width: 64rem;
+                }
             }
         }
     }
@@ -2501,8 +2509,6 @@ header {
     }
 
     .deals__heading {
-        margin-left: 52rem;
-
         font-size: 40rem;
     }
 
